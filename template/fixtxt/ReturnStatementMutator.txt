@@ -1,0 +1,3 @@
+FP12. Mutate Return Statement. Replacing the expression (excluding literals, variables, and conditional expressions) in a return statement with a compatible expression.
+FP12:- return exp1;
++ return exp2;

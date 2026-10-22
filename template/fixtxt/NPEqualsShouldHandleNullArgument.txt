@@ -1,0 +1,15 @@
+FP3.Handle Null Argument in Equality Check.Adding null-check guards to boolean equality comparisons to avoid null-pointer exceptions in overridden equals methods.
+FP3.1: + if (obj == this) return true;
+...exp...
+
+FP3.2: + if (obj == null) return false;
+...exp...
+
+FP3.3: + if (!(obj instanceof MyClass)) return false;
+...exp...
+
+FP3.4: + MyClass other = (MyClass) obj;
+...exp...
+
+FP3.5: - return this.value.equals(other.value);
++ return Objects.equals(this.value, other.value);

@@ -1,0 +1,5 @@
+FP7. Mutate Data Type. Replacing the data type in a variable declaration or a cast expression with another data type
+FP7.1: - T1 var ...;
++ T2 var ...;
+FP7.2: - ...(T1) exp...;
++ ...(T2) exp...;

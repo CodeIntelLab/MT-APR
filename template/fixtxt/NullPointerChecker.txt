@@ -1,0 +1,15 @@
+FP2. Insert Null Pointer Checker. Inserting a null check before
+a buggy statement if, in this statement, a field or an expression
+(of non-primitive data type) is accessed without a null pointer check. 
+FP2.1: + if (exp != null) {
+...exp...; ......
++ }
+FP2.2: + if (exp == null) return DEFAULT_VALUE;
+...exp...;
+FP2.3: + if (exp == null) exp = exp1;
+...exp...;
+FP2.4: + if (exp == null) continue;
+...exp...;
+FP2.5: + if (exp == null)
++ throw new IllegalArgumentException(...);
+...exp...;

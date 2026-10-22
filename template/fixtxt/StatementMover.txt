@@ -1,0 +1,4 @@
+FP14. Move Statement. Moving a buggy statement to a new position.
+FP14:- statement;
+......
++ statement;

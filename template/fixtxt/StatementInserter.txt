@@ -1,0 +1,10 @@
+P4. Insert Missed Statement. Inserting a missing statement before, or after, or surround a buggy statement. The statement is either
+an expression statement with a method invocation, or a return/trycatch/if statement. 
+FP4.1: + method(exp);
+FP4.2: + return DEFAULT_VALUE;
+FP4.3: + try {
+statement; ......
++ } catch (Exception e) { ... }
+FP4.4: + if (conditional_exp) {
+statement; ......
++ }

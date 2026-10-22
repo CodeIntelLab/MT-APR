@@ -1,0 +1,8 @@
+FP5. Mutate Class Instance Creation. Replacing a class instance
+creation expression with a cast super.clone() method invocation if
+the class instance creation is in an overridden clone method. 
+FP5:public Object clone() {
+- ... new T();
++ ... (T) super.clone();
+}
+

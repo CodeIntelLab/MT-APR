@@ -1,0 +1,11 @@
+FP1. Insert Cast Checker. Inserting an instanceof check before
+one buggy statement if this statement contains at least one unchecked
+cast expression.
+FP1.1:+ if (exp instanceof T) {
+var = (T) exp; ......
++ }
+FP1.2: + TargetClass tmp = (TargetClass) exp;
++ if (tmp != null) {
+...exp...;
++ }
+
