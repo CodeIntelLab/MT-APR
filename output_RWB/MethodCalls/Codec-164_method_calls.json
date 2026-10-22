@@ -1,0 +1,12 @@
+[
+  {
+    "method": "org.apache.commons.codec.language.MatchRatingApproachEncoder.cleanName",
+    "doc": "/**\n\n     * Cleans up a name: 1. Upper-cases everything 2. Removes some common punctuation 3. Removes accents 4. Removes any\n\n     * spaces.\n\n     *\n\n     * <h2>API Usage</h2>\n\n     * <p>\n\n     * Consider this method private, it is package protected for unit testing only.\n\n     * </p>\n\n     *\n\n     * @param name\n\n     *            The name to be cleaned\n\n     * @return The cleaned name\n\n     */",
+    "code": "String cleanName(final String name) {\n\n        String upperName = name.toUpperCase(Locale.ENGLISH);\n\n\n\n        final String[] charsToTrim = { \"\\\\-\", \"[&]\", \"\\\\'\", \"\\\\.\", \"[\\\\,]\" };\n\n        for (final String str : charsToTrim) {\n\n            upperName = upperName.replaceAll(str, EMPTY);\n\n        }\n\n\n\n        upperName = removeAccents(upperName);\n\n        upperName = upperName.replaceAll(\"\\\\s+\", EMPTY);\n\n\n\n        return upperName;\n\n    }"
+  },
+  {
+    "method": "org.apache.commons.codec.language.MatchRatingApproachEncoder.removeVowels",
+    "doc": "/**\n\n     * Deletes all vowels unless the vowel begins the word.\n\n     *\n\n     * <h2>API Usage</h2>\n\n     * <p>\n\n     * Consider this method private, it is package protected for unit testing only.\n\n     * </p>\n\n     *\n\n     * @param name\n\n     *            The name to have vowels removed\n\n     * @return De-voweled word\n\n     */",
+    "code": "String removeVowels(String name) {\n\n\n        final String firstLetter = name.substring(0, 1);\n\n\n\n        name = name.replace(\"A\", EMPTY);\n\n        name = name.replace(\"E\", EMPTY);\n\n        name = name.replace(\"I\", EMPTY);\n\n        name = name.replace(\"O\", EMPTY);\n\n        name = name.replace(\"U\", EMPTY);\n\n\n\n        name = name.replaceAll(\"\\\\s{2,}\\\\b\", SPACE);\n\n\n\n\n        if (isVowel(firstLetter)) {\n\n            return firstLetter + name;\n\n        }\n\n        return name;\n\n    }"
+  }
+]

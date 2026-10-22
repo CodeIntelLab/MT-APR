@@ -1,0 +1,56 @@
+
+=== Debug Info for Test: org.jsoup.helper.HttpConnectionTest#encodedUrlPathIsPreserved ===
+Exception: ['HttpConnectionTest.encodedUrlPathIsPreserved:281 expected: <https://example.com/%2B32> but was: <https://example.com/+32>', 'HttpConnectionTest.urlPathPlusIsPreserved:288 expected: <https://example.com/123+456> but was: <https://example.com/123%20456>']
+
+org.jsoup.helper.UrlBuilder:build:73->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:73 -> java.net.URL.getProtocol
+org.jsoup.helper.UrlBuilder:build:75->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:75 -> java.net.URL.getUserInfo
+org.jsoup.helper.UrlBuilder:build:77->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:77 -> java.net.URL.getHost
+org.jsoup.helper.UrlBuilder:build:77->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:77 -> org.jsoup.helper.UrlBuilder.decodePart
+org.jsoup.helper.UrlBuilder:build:77->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:77 -> java.net.IDN.toASCII
+org.jsoup.helper.UrlBuilder:build:79->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:79 -> java.net.URL.getPort
+org.jsoup.helper.UrlBuilder:build:81->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:81 -> java.net.URL.getPath
+org.jsoup.helper.UrlBuilder:build:81->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:81 -> org.jsoup.helper.UrlBuilder.decodePart
+org.jsoup.helper.UrlBuilder:build:81->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:81 -> java.net.URI.<init>
+org.jsoup.helper.UrlBuilder:build:88->[Local Variables] {"uri":"https://example.com/+32"}
+org.jsoup.helper.UrlBuilder:build:89->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:89 -> java.net.URI.toASCIIString
+org.jsoup.helper.UrlBuilder:build:90->[Local Variables] {"normUrl":"https://example.com/+32"}
+org.jsoup.helper.UrlBuilder:build:91->[Control Flow] Branch Info: Line: 91, Condition: if (this.q == null), Executed: true
+org.jsoup.helper.UrlBuilder:build:91->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:91 -> java.net.URL.getRef
+org.jsoup.helper.UrlBuilder:build:91->[Control Flow] Branch Info: Line: 91, Condition: if (java.net.URL.getRef() != null), Executed: false
+org.jsoup.helper.UrlBuilder:build:115->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:115 -> java.net.URL.<init>
+
+=== Debug Info for Test: org.jsoup.helper.HttpConnectionTest#urlPathPlusIsPreserved ===
+Exception: ['HttpConnectionTest.encodedUrlPathIsPreserved:281 expected: <https://example.com/%2B32> but was: <https://example.com/+32>', 'HttpConnectionTest.urlPathPlusIsPreserved:288 expected: <https://example.com/123+456> but was: <https://example.com/123%20456>']
+
+org.jsoup.helper.UrlBuilder:build:73->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:73 -> java.net.URL.getProtocol
+org.jsoup.helper.UrlBuilder:build:75->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:75 -> java.net.URL.getUserInfo
+org.jsoup.helper.UrlBuilder:build:77->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:77 -> java.net.URL.getHost
+org.jsoup.helper.UrlBuilder:build:77->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:77 -> org.jsoup.helper.UrlBuilder.decodePart
+org.jsoup.helper.UrlBuilder:build:77->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:77 -> java.net.IDN.toASCII
+org.jsoup.helper.UrlBuilder:build:79->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:79 -> java.net.URL.getPort
+org.jsoup.helper.UrlBuilder:build:81->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:81 -> java.net.URL.getPath
+org.jsoup.helper.UrlBuilder:build:81->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:81 -> org.jsoup.helper.UrlBuilder.decodePart
+org.jsoup.helper.UrlBuilder:build:81->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:81 -> java.net.URI.<init>
+org.jsoup.helper.UrlBuilder:build:88->[Local Variables] {"uri":"https://example.com/+32"}
+org.jsoup.helper.UrlBuilder:build:89->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:89 -> java.net.URI.toASCIIString
+org.jsoup.helper.UrlBuilder:build:90->[Local Variables] {"normUrl":"https://example.com/+32"}
+org.jsoup.helper.UrlBuilder:build:91->[Control Flow] Branch Info: Line: 91, Condition: if (this.q == null), Executed: true
+org.jsoup.helper.UrlBuilder:build:91->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:91 -> java.net.URL.getRef
+org.jsoup.helper.UrlBuilder:build:91->[Control Flow] Branch Info: Line: 91, Condition: if (java.net.URL.getRef() != null), Executed: false
+org.jsoup.helper.UrlBuilder:build:115->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:115 -> java.net.URL.<init>
+org.jsoup.helper.UrlBuilder:build:73->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:73 -> java.net.URL.getProtocol
+org.jsoup.helper.UrlBuilder:build:75->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:75 -> java.net.URL.getUserInfo
+org.jsoup.helper.UrlBuilder:build:77->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:77 -> java.net.URL.getHost
+org.jsoup.helper.UrlBuilder:build:77->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:77 -> org.jsoup.helper.UrlBuilder.decodePart
+org.jsoup.helper.UrlBuilder:build:77->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:77 -> java.net.IDN.toASCII
+org.jsoup.helper.UrlBuilder:build:79->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:79 -> java.net.URL.getPort
+org.jsoup.helper.UrlBuilder:build:81->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:81 -> java.net.URL.getPath
+org.jsoup.helper.UrlBuilder:build:81->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:81 -> org.jsoup.helper.UrlBuilder.decodePart
+org.jsoup.helper.UrlBuilder:build:81->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:81 -> java.net.URI.<init>
+org.jsoup.helper.UrlBuilder:build:88->[Local Variables] {"uri":"https://example.com/123%20456"}
+org.jsoup.helper.UrlBuilder:build:89->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:89 -> java.net.URI.toASCIIString
+org.jsoup.helper.UrlBuilder:build:90->[Local Variables] {"normUrl":"https://example.com/123%20456"}
+org.jsoup.helper.UrlBuilder:build:91->[Control Flow] Branch Info: Line: 91, Condition: if (this.q == null), Executed: true
+org.jsoup.helper.UrlBuilder:build:91->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:91 -> java.net.URL.getRef
+org.jsoup.helper.UrlBuilder:build:91->[Control Flow] Branch Info: Line: 91, Condition: if (java.net.URL.getRef() != null), Executed: false
+org.jsoup.helper.UrlBuilder:build:115->[Method Call] Call Stack: org.jsoup.helper.UrlBuilder.build:115 -> java.net.URL.<init>

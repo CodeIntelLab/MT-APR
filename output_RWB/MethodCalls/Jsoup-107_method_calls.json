@@ -1,0 +1,7 @@
+[
+  {
+    "method": "org.jsoup.helper.UrlBuilder.decodePart",
+    "doc": "/**\n\n A utility class to normalize input URLs. jsoup internal; API subject to change.\n\n <p>Normalization includes puny-coding the host, and encoding non-ascii path components. Any non-ascii characters in\n\n the query string (or the fragment/anchor) are escaped, but any existing escapes in those components are preserved.</p>\n\n */",
+    "code": "private static String decodePart(String encoded) {\n\n        try {\n\n            return URLDecoder.decode(encoded, UTF_8.name());\n\n        } catch (UnsupportedEncodingException e) {\n\n            throw new RuntimeException(e); // wtf!\n\n        }\n\n    }"
+  }
+]

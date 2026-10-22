@@ -1,0 +1,8 @@
+
+=== Debug Info for Test: org.jsoup.nodes.ElementTest#prettyprintBrWhenNotFirstChild ===
+Exception: ['ElementTest.prettyprintBrWhenNotFirstChild:2321 expected: <<div>', 'XmlTreeBuilderTest.testDoesNotForceSelfClosingKnownTags:97 expected: <<br>']
+
+
+=== Debug Info for Test: org.jsoup.parser.XmlTreeBuilderTest#testDoesNotForceSelfClosingKnownTags ===
+Exception: ['ElementTest.prettyprintBrWhenNotFirstChild:2321 expected: <<div>', 'XmlTreeBuilderTest.testDoesNotForceSelfClosingKnownTags:97 expected: <<br>']
+

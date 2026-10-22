@@ -1,0 +1,14 @@
+
+=== Debug Info for Test: org.apache.commons.codec.net.QuotedPrintableCodecTest#testTooShortByteArray ===
+Exception: ['QuotedPrintableCodecTest.testTooShortByteArray:233 » ArrayIndexOutOfBounds Index -1 out of bounds for length 2']
+
+org.apache.commons.codec.net.QuotedPrintableCodec:encodeQuotedPrintable:410->[Local Variables] {"bytes":[65,65],"strict":true,"printable":[0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]}
+org.apache.commons.codec.net.QuotedPrintableCodec:encodeQuotedPrintable:411->[Control Flow] Branch Info: Line: 411, Condition: if (bytes == null), Executed: false
+org.apache.commons.codec.net.QuotedPrintableCodec:encodeQuotedPrintable:417->[Control Flow] Branch Info: Line: 417, Condition: if (printable == null), Executed: false
+org.apache.commons.codec.net.QuotedPrintableCodec:encodeQuotedPrintable:423->[Method Call] Call Stack: org.apache.commons.codec.net.QuotedPrintableCodec.encodeQuotedPrintable:423 -> java.io.ByteArrayOutputStream.<init>
+org.apache.commons.codec.net.QuotedPrintableCodec:encodeQuotedPrintable:424->[Local Variables] {"buffer":{"buf":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"count":0}}
+org.apache.commons.codec.net.QuotedPrintableCodec:encodeQuotedPrintable:428->[Local Variables] {"bytesLength":2}
+org.apache.commons.codec.net.QuotedPrintableCodec:encodeQuotedPrintable:429->[Control Flow] Branch Info: Line: 429, Condition: if (strict != 0), Executed: true
+org.apache.commons.codec.net.QuotedPrintableCodec:encodeQuotedPrintable:436->[Local Variables] {"pos":1}
+org.apache.commons.codec.net.QuotedPrintableCodec:encodeQuotedPrintable:437->[Control Flow] Branch Info: Line: 437, Condition: if (bytesLength < bytesLength), Executed: false
+org.apache.commons.codec.net.QuotedPrintableCodec:encodeQuotedPrintable:475->[Method Call] Call Stack: org.apache.commons.codec.net.QuotedPrintableCodec.encodeQuotedPrintable:475 -> org.apache.commons.codec.net.QuotedPrintableCodec.getUnsignedOctet

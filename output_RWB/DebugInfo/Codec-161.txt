@@ -1,0 +1,4 @@
+
+=== Debug Info for Test: org.apache.commons.codec.language.bm.PhoneticEngineTest#testInvalidEncode ===
+Exception: ['PhoneticEngineTest.testInvalidEncode:89 » StringIndexOutOfBounds start 1, end 0, length 0', 'PhoneticEngineTest.testInvalidEncode:89 » ArrayIndexOutOfBounds Index -1 out of bounds for length 0']
+

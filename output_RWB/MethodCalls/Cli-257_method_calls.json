@@ -1,0 +1,7 @@
+[
+  {
+    "method": "org.apache.commons.cli.Option.requiresArg",
+    "doc": "/**\n     * Tells if the option requires more arguments to be valid.\n     *\n     * @return false if the option doesn't require more arguments\n     * @since 1.3\n     */",
+    "code": "boolean requiresArg() {\n        if (optionalArg) {\n            return false;\n        }\n        if (argCount == UNLIMITED_VALUES) {\n            return values.isEmpty();\n        }\n        return acceptsArg();\n    }"
+  }
+]

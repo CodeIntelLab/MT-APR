@@ -1,0 +1,154 @@
+
+=== Debug Info for Test: org.jsoup.nodes.ElementTest#nestedFormatAsInlinePrintsAsBlock ===
+Exception: ['ElementTest.nestedFormatAsInlinePrintsAsBlock:2717 expected: <<table>', 'HtmlParserTest.handlesUnclosedTitle:773 expected: <<b>Two', 'HtmlParserTest.nestedPFragments:1475 expected: <<p>', 'HtmlParserTest.parseFragmentOnCreatedDocument:1466 expected: <<p>']
+
+
+=== Debug Info for Test: org.jsoup.parser.HtmlParserTest#nestedPFragments ===
+Exception: ['ElementTest.nestedFormatAsInlinePrintsAsBlock:2717 expected: <<table>', 'HtmlParserTest.handlesUnclosedTitle:773 expected: <<b>Two', 'HtmlParserTest.nestedPFragments:1475 expected: <<p>', 'HtmlParserTest.parseFragmentOnCreatedDocument:1466 expected: <<p>']
+
+org.jsoup.nodes.Element:isFormatAsBlock:3690->[Local Variables] {"out":{"escapeMode":"base","charset":{"name":"UTF-8","aliases":["UTF8","unicode-1-1-utf-8"]},"encoderThreadLocal":{"threadLocalHashCode":-1549107828},"coreCharset":"utf","prettyPrint":true,"outline":false,"indentAmount":1,"maxPaddingWidth":30,"syntax":"html"}}
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.tag
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.tag
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Document$OutputSettings.outline
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Document$OutputSettings.outline() != 0), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.tag
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Document$OutputSettings.outline
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Document$OutputSettings.outline() != 0), Executed: false
+
+=== Debug Info for Test: org.jsoup.parser.HtmlParserTest#parseFragmentOnCreatedDocument ===
+Exception: ['ElementTest.nestedFormatAsInlinePrintsAsBlock:2717 expected: <<table>', 'HtmlParserTest.handlesUnclosedTitle:773 expected: <<b>Two', 'HtmlParserTest.nestedPFragments:1475 expected: <<p>', 'HtmlParserTest.parseFragmentOnCreatedDocument:1466 expected: <<p>']
+
+org.jsoup.nodes.Element:isFormatAsBlock:3690->[Local Variables] {"out":{"escapeMode":"base","charset":{"name":"UTF-8","aliases":["UTF8","unicode-1-1-utf-8"]},"encoderThreadLocal":{"threadLocalHashCode":-1549107828},"coreCharset":"utf","prettyPrint":true,"outline":false,"indentAmount":1,"maxPaddingWidth":30,"syntax":"html"}}
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.tag
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.tag
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Document$OutputSettings.outline
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Document$OutputSettings.outline() != 0), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3690->[Local Variables] {"out":{"escapeMode":"base","charset":{"name":"UTF-8","aliases":["UTF8","unicode-1-1-utf-8"]},"encoderThreadLocal":{"threadLocalHashCode":-1549107828},"coreCharset":"utf","prettyPrint":true,"outline":false,"indentAmount":1,"maxPaddingWidth":30,"syntax":"html"}}
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.tag
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.tag
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Document$OutputSettings.outline
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Document$OutputSettings.outline() != 0), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.tag
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Document$OutputSettings.outline
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Document$OutputSettings.outline() != 0), Executed: false
+
+=== Debug Info for Test: org.jsoup.parser.HtmlParserTest#handlesUnclosedTitle ===
+Exception: ['ElementTest.nestedFormatAsInlinePrintsAsBlock:2717 expected: <<table>', 'HtmlParserTest.handlesUnclosedTitle:773 expected: <<b>Two', 'HtmlParserTest.nestedPFragments:1475 expected: <<p>', 'HtmlParserTest.parseFragmentOnCreatedDocument:1466 expected: <<p>']
+
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.tag
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Document$OutputSettings.outline
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Document$OutputSettings.outline() != 0), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.tag
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Document$OutputSettings.outline
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Document$OutputSettings.outline() != 0), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3690->[Local Variables] {"out":{"escapeMode":"base","charset":{"name":"UTF-8","aliases":["UTF8","unicode-1-1-utf-8"]},"encoderThreadLocal":{"threadLocalHashCode":-1549107828},"coreCharset":"utf","prettyPrint":true,"outline":false,"indentAmount":1,"maxPaddingWidth":30,"syntax":"html"}}
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.tag
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.tag
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Document$OutputSettings.outline
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Document$OutputSettings.outline() != 0), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3690->[Local Variables] {"out":{"escapeMode":"base","charset":{"name":"UTF-8","aliases":["UTF8","unicode-1-1-utf-8"]},"encoderThreadLocal":{"threadLocalHashCode":91423699},"coreCharset":"utf","prettyPrint":true,"outline":false,"indentAmount":1,"maxPaddingWidth":30,"syntax":"html"}}
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.nodes.Element.parent() != null), Executed: true
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.parent
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.nodes.Element.tag
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Method Call] Call Stack: org.jsoup.nodes.Element.isFormatAsBlock:3691 -> org.jsoup.parser.Tag.formatAsBlock
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: false
+org.jsoup.nodes.Element:isFormatAsBlock:3691->[Control Flow] Branch Info: Line: 3691, Condition: if (org.jsoup.parser.Tag.formatAsBlock() == 0), Executed: false

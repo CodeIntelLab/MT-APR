@@ -1,0 +1,4 @@
+
+=== Debug Info for Test: org.jsoup.parser.PositionTest#trackAttributePositionWithCase ===
+Exception: ['PositionTest.trackAttributePositionWithCase:405 expected: <html:0-0~243-243; head:0-0~0-0; body:0-0~243-243; project:0-204~243-243; xmlns:9-14=16-49; xmlns:xsi:51-60=62-103; xsi:schemalocation:105-123=125-202; #text:204-209; modelversion:209-223~228-243; #text:223-228; > but was: <html:0-0~243-243; head:0-0~0-0; body:0-0~243-243; project:0-204~243-243; xmlns:9-14=16-49; xmlns:xsi:51-60=62-103; xsi:schemalocation:-1--1=-1--1; #text:204-209; modelversion:209-223~228-243; #text:223-228; >']
+

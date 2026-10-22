@@ -1,0 +1,32 @@
+
+=== Debug Info for Test: org.jsoup.nodes.DataNodeTest#xmlOutputOtherWithCData ===
+Exception: ['W3CDomTest.canXmlParseCdataNodes:354 expected: <true> but was: <false>', 'DataNodeTest.xmlOutputOtherWithCData:53 expected: <<![CDATA[other && <> data]]>> but was: <<![CDATA[<![CDATA[other && <> data]]>]]>>', 'DataNodeTest.xmlOutputScriptWithCData:17 expected: <//<![CDATA[', 'DataNodeTest.xmlOutputScriptWithoutCData:26 expected: <//<![CDATA[', 'DataNodeTest.xmlOutputStyleWithCData:35 expected: </*<![CDATA[*/', 'DataNodeTest.xmlOutputStyleWithoutCData:44 expected: </*<![CDATA[*/', 'ElementTest.datanodesOutputCdataInXhtml:2760 expected: <<script>//<![CDATA[', 'ElementTest.datanodesOutputExistingCdataInXhtml:2792 expected: <<script>//<![CDATA[']
+
+
+=== Debug Info for Test: org.jsoup.nodes.DataNodeTest#xmlOutputStyleWithCData ===
+Exception: ['W3CDomTest.canXmlParseCdataNodes:354 expected: <true> but was: <false>', 'DataNodeTest.xmlOutputOtherWithCData:53 expected: <<![CDATA[other && <> data]]>> but was: <<![CDATA[<![CDATA[other && <> data]]>]]>>', 'DataNodeTest.xmlOutputScriptWithCData:17 expected: <//<![CDATA[', 'DataNodeTest.xmlOutputScriptWithoutCData:26 expected: <//<![CDATA[', 'DataNodeTest.xmlOutputStyleWithCData:35 expected: </*<![CDATA[*/', 'DataNodeTest.xmlOutputStyleWithoutCData:44 expected: </*<![CDATA[*/', 'ElementTest.datanodesOutputCdataInXhtml:2760 expected: <<script>//<![CDATA[', 'ElementTest.datanodesOutputExistingCdataInXhtml:2792 expected: <<script>//<![CDATA[']
+
+
+=== Debug Info for Test: org.jsoup.nodes.DataNodeTest#xmlOutputStyleWithoutCData ===
+Exception: ['W3CDomTest.canXmlParseCdataNodes:354 expected: <true> but was: <false>', 'DataNodeTest.xmlOutputOtherWithCData:53 expected: <<![CDATA[other && <> data]]>> but was: <<![CDATA[<![CDATA[other && <> data]]>]]>>', 'DataNodeTest.xmlOutputScriptWithCData:17 expected: <//<![CDATA[', 'DataNodeTest.xmlOutputScriptWithoutCData:26 expected: <//<![CDATA[', 'DataNodeTest.xmlOutputStyleWithCData:35 expected: </*<![CDATA[*/', 'DataNodeTest.xmlOutputStyleWithoutCData:44 expected: </*<![CDATA[*/', 'ElementTest.datanodesOutputCdataInXhtml:2760 expected: <<script>//<![CDATA[', 'ElementTest.datanodesOutputExistingCdataInXhtml:2792 expected: <<script>//<![CDATA[']
+
+
+=== Debug Info for Test: org.jsoup.nodes.ElementTest#datanodesOutputExistingCdataInXhtml ===
+Exception: ['W3CDomTest.canXmlParseCdataNodes:354 expected: <true> but was: <false>', 'DataNodeTest.xmlOutputOtherWithCData:53 expected: <<![CDATA[other && <> data]]>> but was: <<![CDATA[<![CDATA[other && <> data]]>]]>>', 'DataNodeTest.xmlOutputScriptWithCData:17 expected: <//<![CDATA[', 'DataNodeTest.xmlOutputScriptWithoutCData:26 expected: <//<![CDATA[', 'DataNodeTest.xmlOutputStyleWithCData:35 expected: </*<![CDATA[*/', 'DataNodeTest.xmlOutputStyleWithoutCData:44 expected: </*<![CDATA[*/', 'ElementTest.datanodesOutputCdataInXhtml:2760 expected: <<script>//<![CDATA[', 'ElementTest.datanodesOutputExistingCdataInXhtml:2792 expected: <<script>//<![CDATA[']
+
+
+=== Debug Info for Test: org.jsoup.nodes.DataNodeTest#xmlOutputScriptWithoutCData ===
+Exception: ['W3CDomTest.canXmlParseCdataNodes:354 expected: <true> but was: <false>', 'DataNodeTest.xmlOutputOtherWithCData:53 expected: <<![CDATA[other && <> data]]>> but was: <<![CDATA[<![CDATA[other && <> data]]>]]>>', 'DataNodeTest.xmlOutputScriptWithCData:17 expected: <//<![CDATA[', 'DataNodeTest.xmlOutputScriptWithoutCData:26 expected: <//<![CDATA[', 'DataNodeTest.xmlOutputStyleWithCData:35 expected: </*<![CDATA[*/', 'DataNodeTest.xmlOutputStyleWithoutCData:44 expected: </*<![CDATA[*/', 'ElementTest.datanodesOutputCdataInXhtml:2760 expected: <<script>//<![CDATA[', 'ElementTest.datanodesOutputExistingCdataInXhtml:2792 expected: <<script>//<![CDATA[']
+
+
+=== Debug Info for Test: org.jsoup.nodes.DataNodeTest#xmlOutputScriptWithCData ===
+Exception: ['W3CDomTest.canXmlParseCdataNodes:354 expected: <true> but was: <false>', 'DataNodeTest.xmlOutputOtherWithCData:53 expected: <<![CDATA[other && <> data]]>> but was: <<![CDATA[<![CDATA[other && <> data]]>]]>>', 'DataNodeTest.xmlOutputScriptWithCData:17 expected: <//<![CDATA[', 'DataNodeTest.xmlOutputScriptWithoutCData:26 expected: <//<![CDATA[', 'DataNodeTest.xmlOutputStyleWithCData:35 expected: </*<![CDATA[*/', 'DataNodeTest.xmlOutputStyleWithoutCData:44 expected: </*<![CDATA[*/', 'ElementTest.datanodesOutputCdataInXhtml:2760 expected: <<script>//<![CDATA[', 'ElementTest.datanodesOutputExistingCdataInXhtml:2792 expected: <<script>//<![CDATA[']
+
+
+=== Debug Info for Test: org.jsoup.nodes.ElementTest#datanodesOutputCdataInXhtml ===
+Exception: ['W3CDomTest.canXmlParseCdataNodes:354 expected: <true> but was: <false>', 'DataNodeTest.xmlOutputOtherWithCData:53 expected: <<![CDATA[other && <> data]]>> but was: <<![CDATA[<![CDATA[other && <> data]]>]]>>', 'DataNodeTest.xmlOutputScriptWithCData:17 expected: <//<![CDATA[', 'DataNodeTest.xmlOutputScriptWithoutCData:26 expected: <//<![CDATA[', 'DataNodeTest.xmlOutputStyleWithCData:35 expected: </*<![CDATA[*/', 'DataNodeTest.xmlOutputStyleWithoutCData:44 expected: </*<![CDATA[*/', 'ElementTest.datanodesOutputCdataInXhtml:2760 expected: <<script>//<![CDATA[', 'ElementTest.datanodesOutputExistingCdataInXhtml:2792 expected: <<script>//<![CDATA[']
+
+
+=== Debug Info for Test: org.jsoup.helper.W3CDomTest#canXmlParseCdataNodes ===
+Exception: ['W3CDomTest.canXmlParseCdataNodes:354 expected: <true> but was: <false>', 'DataNodeTest.xmlOutputOtherWithCData:53 expected: <<![CDATA[other && <> data]]>> but was: <<![CDATA[<![CDATA[other && <> data]]>]]>>', 'DataNodeTest.xmlOutputScriptWithCData:17 expected: <//<![CDATA[', 'DataNodeTest.xmlOutputScriptWithoutCData:26 expected: <//<![CDATA[', 'DataNodeTest.xmlOutputStyleWithCData:35 expected: </*<![CDATA[*/', 'DataNodeTest.xmlOutputStyleWithoutCData:44 expected: </*<![CDATA[*/', 'ElementTest.datanodesOutputCdataInXhtml:2760 expected: <<script>//<![CDATA[', 'ElementTest.datanodesOutputExistingCdataInXhtml:2792 expected: <<script>//<![CDATA[']
+

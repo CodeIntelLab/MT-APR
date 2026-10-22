@@ -1,0 +1,60 @@
+
+=== Debug Info for Test: org.apache.commons.lang3.reflect.TypeUtilsTest#testGetRawType_LANG_1697 ===
+Exception: ['TypeUtilsTest.testGetRawType_LANG_1697:371 » NullPointer']
+
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1525->[Control Flow] Branch Info: Line: 1525, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1597->[Control Flow] Branch Info: Line: 1597, Condition: if (type != 0), Executed: true
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1603->[Method Call] Call Stack: org.apache.commons.lang3.reflect.TypeUtils.getRawType:1603 -> java.lang.reflect.GenericArrayType.getGenericComponentType
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1504->[Local Variables] {"type":"int"}
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1505->[Control Flow] Branch Info: Line: 1505, Condition: if (type != 0), Executed: true
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1608->[Local Variables] {"rawComponentType":"int","type":{"componentType":"int"}}
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1609->[Method Call] Call Stack: org.apache.commons.lang3.reflect.TypeUtils.getRawType:1609 -> java.lang.reflect.Array.newInstance
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1609->[Method Call] Call Stack: org.apache.commons.lang3.reflect.TypeUtils.getRawType:1609 -> java.lang.Object.getClass
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1504->[Local Variables] {"type":{"componentType":{"upperBounds":["class java.lang.Object"],"lowerBounds":[]}}}
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1505->[Control Flow] Branch Info: Line: 1505, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1515->[Control Flow] Branch Info: Line: 1515, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1525->[Control Flow] Branch Info: Line: 1525, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1597->[Control Flow] Branch Info: Line: 1597, Condition: if (type != 0), Executed: true
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1603->[Method Call] Call Stack: org.apache.commons.lang3.reflect.TypeUtils.getRawType:1603 -> java.lang.reflect.GenericArrayType.getGenericComponentType
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1504->[Local Variables] {"type":{"upperBounds":["class java.lang.Object"],"lowerBounds":[]}}
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1505->[Control Flow] Branch Info: Line: 1505, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1515->[Control Flow] Branch Info: Line: 1515, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1525->[Control Flow] Branch Info: Line: 1525, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1597->[Control Flow] Branch Info: Line: 1597, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1617->[Control Flow] Branch Info: Line: 1617, Condition: if (type != 0), Executed: true
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1608->[Local Variables] {"type":{"componentType":{"upperBounds":["class java.lang.Object"],"lowerBounds":[]}}}
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1609->[Method Call] Call Stack: org.apache.commons.lang3.reflect.TypeUtils.getRawType:1609 -> java.lang.reflect.Array.newInstance
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1515->[Control Flow] Branch Info: Line: 1515, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1525->[Control Flow] Branch Info: Line: 1525, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1597->[Control Flow] Branch Info: Line: 1597, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1617->[Control Flow] Branch Info: Line: 1617, Condition: if (type != 0), Executed: true
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1608->[Local Variables] {"type":{"componentType":{"upperBounds":["class java.lang.Object"],"lowerBounds":[]}}}
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1609->[Method Call] Call Stack: org.apache.commons.lang3.reflect.TypeUtils.getRawType:1609 -> java.lang.reflect.Array.newInstance
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1504->[Local Variables] {"assigningType":"int","type":{"componentType":"int"}}
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1505->[Control Flow] Branch Info: Line: 1505, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1515->[Control Flow] Branch Info: Line: 1515, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1525->[Control Flow] Branch Info: Line: 1525, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1597->[Control Flow] Branch Info: Line: 1597, Condition: if (type != 0), Executed: true
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1603->[Method Call] Call Stack: org.apache.commons.lang3.reflect.TypeUtils.getRawType:1603 -> java.lang.reflect.GenericArrayType.getGenericComponentType
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1504->[Local Variables] {"type":"int"}
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1505->[Control Flow] Branch Info: Line: 1505, Condition: if (type != 0), Executed: true
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1608->[Local Variables] {"rawComponentType":"int","type":{"componentType":"int"}}
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1609->[Method Call] Call Stack: org.apache.commons.lang3.reflect.TypeUtils.getRawType:1609 -> java.lang.reflect.Array.newInstance
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1609->[Method Call] Call Stack: org.apache.commons.lang3.reflect.TypeUtils.getRawType:1609 -> java.lang.Object.getClass
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1504->[Local Variables] {"type":{"componentType":{"upperBounds":["class java.lang.Object"],"lowerBounds":[]}}}
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1505->[Control Flow] Branch Info: Line: 1505, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1515->[Control Flow] Branch Info: Line: 1515, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1525->[Control Flow] Branch Info: Line: 1525, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1597->[Control Flow] Branch Info: Line: 1597, Condition: if (type != 0), Executed: true
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1603->[Method Call] Call Stack: org.apache.commons.lang3.reflect.TypeUtils.getRawType:1603 -> java.lang.reflect.GenericArrayType.getGenericComponentType
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1504->[Local Variables] {"type":{"upperBounds":["class java.lang.Object"],"lowerBounds":[]}}
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1505->[Control Flow] Branch Info: Line: 1505, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1515->[Control Flow] Branch Info: Line: 1515, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1525->[Control Flow] Branch Info: Line: 1525, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1597->[Control Flow] Branch Info: Line: 1597, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1617->[Control Flow] Branch Info: Line: 1617, Condition: if (type != 0), Executed: true
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1608->[Local Variables] {"type":{"componentType":{"upperBounds":["class java.lang.Object"],"lowerBounds":[]}}}
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1609->[Method Call] Call Stack: org.apache.commons.lang3.reflect.TypeUtils.getRawType:1609 -> java.lang.reflect.Array.newInstance
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1504->[Local Variables] {"assigningType":"int","type":{"componentType":"int"}}
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1505->[Control Flow] Branch Info: Line: 1505, Condition: if (type != 0), Executed: false
+org.apache.commons.lang3.reflect.TypeUtils:getRawType:1515->[Control Flow] Branch Info: Line: 1515, Condition: if (type != 0), Executed: false

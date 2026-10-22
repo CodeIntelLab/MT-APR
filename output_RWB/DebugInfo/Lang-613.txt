@@ -1,0 +1,4 @@
+
+=== Debug Info for Test: org.apache.commons.lang3.SerializationUtilsTest#testNegativeByteArray ===
+Exception: ['SerializationUtilsTest.testNegativeByteArray:370 Unexpected exception type thrown, expected: <org.apache.commons.lang3.SerializationException> but was: <java.lang.NegativeArraySizeException>']
+

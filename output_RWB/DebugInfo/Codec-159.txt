@@ -1,0 +1,59 @@
+
+=== Debug Info for Test: org.apache.commons.codec.binary.Base16Test#testOddEvenDecoding ===
+Exception: ['Base16Test.testOddEvenDecoding:409 expected: <ABCDE> but was: <ABCD>']
+
+org.apache.commons.codec.binary.Base16:decode:339->[Control Flow] Branch Info: Line: 339, Condition: if (availableChars == 0), Executed: false
+org.apache.commons.codec.binary.Base16:decode:342->[Local Variables] {"charsToProcess":2}
+org.apache.commons.codec.binary.Base16:decode:343->[Method Call] Call Stack: org.apache.commons.codec.binary.Base16.decode:343 -> org.apache.commons.codec.binary.Base16.ensureBufferSize
+org.apache.commons.codec.binary.Base16:decode:350->[Local Variables] {"i":0}
+org.apache.commons.codec.binary.Base16:decode:351->[Control Flow] Branch Info: Line: 351, Condition: if (availableChars < availableChars), Executed: false
+org.apache.commons.codec.binary.Base16:decode:375->[Control Flow] Branch Info: Line: 375, Condition: if (charsToProcess < charsToProcess), Executed: true
+org.apache.commons.codec.binary.Base16:decode:377->[Method Call] Call Stack: org.apache.commons.codec.binary.Base16.decode:377 -> org.apache.commons.codec.binary.Base16.decodeOctet
+org.apache.commons.codec.binary.Base16:decode:378->[Local Variables] {"result":64,"offset":8}
+org.apache.commons.codec.binary.Base16:decode:379->[Method Call] Call Stack: org.apache.commons.codec.binary.Base16.decode:379 -> org.apache.commons.codec.binary.Base16.decodeOctet
+org.apache.commons.codec.binary.Base16:decode:380->[Local Variables] {"result":68,"offset":9}
+org.apache.commons.codec.binary.Base16:decode:382->[Local Variables] {"i":2}
+org.apache.commons.codec.binary.Base16:decode:369->[Control Flow] Loop Info: Line: 369, Description: while at line 369
+org.apache.commons.codec.binary.Base16:decode:351->[Control Flow] Branch Info: Line: 351, Condition: if (availableChars < availableChars), Executed: false
+org.apache.commons.codec.binary.Base16:decode:374->[Local Variables] {"context":{"ibitWorkArea":0,"lbitWorkArea":0,"buffer":[65,66,67,68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"..."],"pos":4,"readPos":0,"eof":false,"currentLinePos":0,"modulus":0},"buffer":[65,66,67,68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"..."]}
+org.apache.commons.codec.binary.Base16:decode:375->[Control Flow] Branch Info: Line: 375, Condition: if (charsToProcess < charsToProcess), Executed: false
+org.apache.commons.codec.binary.Base16:decode:391->[Control Flow] Branch Info: Line: 391, Condition: if (dataLen < dataLen), Executed: true
+org.apache.commons.codec.binary.Base16:decode:395->[Method Call] Call Stack: org.apache.commons.codec.binary.Base16.decode:395 -> org.apache.commons.codec.binary.Base16.decodeOctet
+org.apache.commons.codec.binary.Base16:decode:391->[Control Flow] Branch Info: Line: 391, Condition: if (dataLen < dataLen), Executed: false
+org.apache.commons.codec.binary.Base16:decode:398->[Local Variables] {"context":{"ibitWorkArea":5,"lbitWorkArea":0,"buffer":[65,66,67,68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"..."],"pos":4,"readPos":0,"eof":false,"currentLinePos":0,"modulus":0}}
+org.apache.commons.codec.binary.Base16:decode:319->[Control Flow] Branch Info: Line: 319, Condition: if (this.ibitWorkArea != false), Executed: true
+org.apache.commons.codec.binary.Base16:decode:324->[Local Variables] {"availableChars":5}
+org.apache.commons.codec.binary.Base16:decode:325->[Control Flow] Branch Info: Line: 325, Condition: if (availableChars == availableChars), Executed: false
+org.apache.commons.codec.binary.Base16:decode:325->[Control Flow] Branch Info: Line: 325, Condition: if (dataLen == dataLen), Executed: false
+org.apache.commons.codec.binary.Base16:decode:339->[Control Flow] Branch Info: Line: 339, Condition: if (availableChars == 0), Executed: false
+org.apache.commons.codec.binary.Base16:decode:342->[Local Variables] {"charsToProcess":4}
+org.apache.commons.codec.binary.Base16:decode:343->[Method Call] Call Stack: org.apache.commons.codec.binary.Base16.decode:343 -> org.apache.commons.codec.binary.Base16.ensureBufferSize
+org.apache.commons.codec.binary.Base16:decode:350->[Local Variables] {"i":0}
+org.apache.commons.codec.binary.Base16:decode:351->[Control Flow] Branch Info: Line: 351, Condition: if (availableChars < availableChars), Executed: true
+org.apache.commons.codec.binary.Base16:decode:356->[Local Variables] {"result":64}
+org.apache.commons.codec.binary.Base16:decode:357->[Method Call] Call Stack: org.apache.commons.codec.binary.Base16.decode:357 -> org.apache.commons.codec.binary.Base16.decodeOctet
+org.apache.commons.codec.binary.Base16:decode:358->[Local Variables] {"result":66,"offset":4}
+org.apache.commons.codec.binary.Base16:decode:362->[Local Variables] {"i":2}
+org.apache.commons.codec.binary.Base16:decode:368->[Local Variables] {"context":{"ibitWorkArea":5,"lbitWorkArea":0,"buffer":[65,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"..."],"pos":2,"readPos":0,"eof":false,"currentLinePos":0,"modulus":0},"buffer":[65,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"..."]}
+org.apache.commons.codec.binary.Base16:decode:351->[Control Flow] Branch Info: Line: 351, Condition: if (availableChars < availableChars), Executed: false
+org.apache.commons.codec.binary.Base16:decode:374->[Local Variables] {"context":{"ibitWorkArea":0,"lbitWorkArea":0,"buffer":[65,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"..."],"pos":2,"readPos":0,"eof":false,"currentLinePos":0,"modulus":0}}
+org.apache.commons.codec.binary.Base16:decode:375->[Control Flow] Branch Info: Line: 375, Condition: if (charsToProcess < charsToProcess), Executed: true
+org.apache.commons.codec.binary.Base16:decode:377->[Method Call] Call Stack: org.apache.commons.codec.binary.Base16.decode:377 -> org.apache.commons.codec.binary.Base16.decodeOctet
+org.apache.commons.codec.binary.Base16:decode:378->[Local Variables] {"result":64,"offset":5}
+org.apache.commons.codec.binary.Base16:decode:379->[Method Call] Call Stack: org.apache.commons.codec.binary.Base16.decode:379 -> org.apache.commons.codec.binary.Base16.decodeOctet
+org.apache.commons.codec.binary.Base16:decode:380->[Local Variables] {"result":67,"offset":6}
+org.apache.commons.codec.binary.Base16:decode:382->[Local Variables] {"i":4}
+org.apache.commons.codec.binary.Base16:decode:369->[Control Flow] Loop Info: Line: 369, Description: while at line 369
+org.apache.commons.codec.binary.Base16:decode:351->[Control Flow] Branch Info: Line: 351, Condition: if (availableChars < availableChars), Executed: false
+org.apache.commons.codec.binary.Base16:decode:374->[Local Variables] {"context":{"ibitWorkArea":0,"lbitWorkArea":0,"buffer":[65,66,67,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"..."],"pos":3,"readPos":0,"eof":false,"currentLinePos":0,"modulus":0},"buffer":[65,66,67,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"..."]}
+org.apache.commons.codec.binary.Base16:decode:375->[Control Flow] Branch Info: Line: 375, Condition: if (charsToProcess < charsToProcess), Executed: false
+org.apache.commons.codec.binary.Base16:decode:391->[Control Flow] Branch Info: Line: 391, Condition: if (dataLen < dataLen), Executed: false
+org.apache.commons.codec.binary.Base16:decode:300->[Local Variables] {"offset":7,"length":3}
+org.apache.commons.codec.binary.Base16:decode:301->[Control Flow] Branch Info: Line: 301, Condition: if (this.eof == false), Executed: true
+org.apache.commons.codec.binary.Base16:decode:301->[Control Flow] Branch Info: Line: 301, Condition: if (length < 0), Executed: false
+org.apache.commons.codec.binary.Base16:decode:317->[Method Call] Call Stack: org.apache.commons.codec.binary.Base16.decode:317 -> java.lang.Math.min
+org.apache.commons.codec.binary.Base16:decode:318->[Local Variables] {"dataLen":3}
+org.apache.commons.codec.binary.Base16:decode:319->[Control Flow] Branch Info: Line: 319, Condition: if (this.ibitWorkArea != false), Executed: false
+org.apache.commons.codec.binary.Base16:decode:324->[Local Variables] {"availableChars":3}
+org.apache.commons.codec.binary.Base16:decode:325->[Control Flow] Branch Info: Line: 325, Condition: if (availableChars == availableChars), Executed: false
+org.apache.commons.codec.binary.Base16:decode:325->[Control Flow] Branch Info: Line: 325, Condition: if (dataLen == dataLen), Executed: false

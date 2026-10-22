@@ -1,0 +1,38 @@
+
+=== Debug Info for Test: org.apache.commons.lang3.builder.ReflectionToStringBuilderCustomImplementationTest#testBuild ===
+Exception: ['ReflectionToStringBuilderCustomImplementationTest.testBuild:51 expected: <[stringField=prefix:string]> but was: <[stringField=string]>']
+
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1311->[Method Call] Call Stack: org.apache.commons.lang3.builder.ReflectionToStringBuilder.appendFieldsIn:1311 -> java.lang.reflect.AccessibleObject.setAccessible
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1313->[Control Flow] Branch Info: Line: 1313, Condition: if (var4 < var4), Executed: false
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1298->[Local Variables] {"clazz":"class java.lang.Object"}
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1299->[Method Call] Call Stack: org.apache.commons.lang3.builder.ReflectionToStringBuilder.appendFieldsIn:1299 -> java.lang.Class.isArray
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1299->[Control Flow] Branch Info: Line: 1299, Condition: if (java.lang.Class.isArray() != 0), Executed: false
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1309->[Method Call] Call Stack: org.apache.commons.lang3.builder.ReflectionToStringBuilder.appendFieldsIn:1309 -> java.lang.Class.getDeclaredFields
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1309->[Method Call] Call Stack: org.apache.commons.lang3.builder.ReflectionToStringBuilder.appendFieldsIn:1309 -> java.util.Comparator.comparing
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1309->[Method Call] Call Stack: org.apache.commons.lang3.builder.ReflectionToStringBuilder.appendFieldsIn:1309 -> org.apache.commons.lang3.ArraySorter.sort
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1311->[Method Call] Call Stack: org.apache.commons.lang3.builder.ReflectionToStringBuilder.appendFieldsIn:1311 -> java.lang.reflect.AccessibleObject.setAccessible
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1313->[Control Flow] Branch Info: Line: 1313, Condition: if (var4 < var4), Executed: false
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1313->[Control Flow] Branch Info: Line: 1313, Condition: if (var4 < var4), Executed: true
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1314->[Local Variables] {"field":{"clazz":"class org.apache.commons.lang3.builder.ReflectionToStringBuilderCustomImplementationTest","slot":0,"name":"stringField","type":"class java.lang.String","modifiers":18,"root":{"clazz":"class org.apache.commons.lang3.builder.ReflectionToStringBuilderCustomImplementationTest","slot":0,"name":"stringField","type":"class java.lang.String","modifiers":18,"override":false},"override":true}}
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1315->[Method Call] Call Stack: org.apache.commons.lang3.builder.ReflectionToStringBuilder.appendFieldsIn:1315 -> java.lang.reflect.Field.getName
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1316->[Local Variables] {"fieldName":"stringField"}
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1317->[Method Call] Call Stack: org.apache.commons.lang3.builder.ReflectionToStringBuilder.appendFieldsIn:1317 -> org.apache.commons.lang3.builder.ReflectionToStringBuilder.accept
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1317->[Control Flow] Branch Info: Line: 1317, Condition: if (org.apache.commons.lang3.builder.ReflectionToStringBuilder.accept() != 0), Executed: true
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1321->[Method Call] Call Stack: org.apache.commons.lang3.builder.ReflectionToStringBuilder.appendFieldsIn:1321 -> org.apache.commons.lang3.builder.ReflectionToStringBuilder.getObject
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1321->[Method Call] Call Stack: org.apache.commons.lang3.builder.ReflectionToStringBuilder.appendFieldsIn:1321 -> org.apache.commons.lang3.builder.Reflection.getUnchecked
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1322->[Local Variables] "{field\u003dprivate final java.lang.String org.apache.commons.lang3.builder.ReflectionToStringBuilderCustomImplementationTest.stringField, fields\u003d[Ljava.lang.reflect.Field;@1cdc4c27, fieldValue\u003dstring}"
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1323->[Control Flow] Branch Info: Line: 1323, Condition: if (this.excludeNullValues != false), Executed: false
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1325->[Method Call] Call Stack: org.apache.commons.lang3.builder.ReflectionToStringBuilder.appendFieldsIn:1325 -> java.lang.reflect.Field.isAnnotationPresent
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1325->[Control Flow] Branch Info: Line: 1325, Condition: if (java.lang.reflect.Field.isAnnotationPresent() == 0), Executed: true
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1325->[Method Call] Call Stack: org.apache.commons.lang3.builder.ReflectionToStringBuilder.appendFieldsIn:1325 -> org.apache.commons.lang3.builder.ReflectionToStringBuilder.append
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1317->[Control Flow] Branch Info: Line: 1317, Condition: if (org.apache.commons.lang3.builder.ReflectionToStringBuilder.accept() != 0), Executed: false
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1323->[Control Flow] Branch Info: Line: 1323, Condition: if (fieldValue != null), Executed: false
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1313->[Control Flow] Loop Info: Line: 1313, Description: while at line 1313
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1313->[Control Flow] Branch Info: Line: 1313, Condition: if (var4 < var4), Executed: false
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1298->[Local Variables] {"clazz":"class org.apache.commons.lang3.AbstractLangTest"}
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1299->[Method Call] Call Stack: org.apache.commons.lang3.builder.ReflectionToStringBuilder.appendFieldsIn:1299 -> java.lang.Class.isArray
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1299->[Control Flow] Branch Info: Line: 1299, Condition: if (java.lang.Class.isArray() != 0), Executed: false
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1309->[Method Call] Call Stack: org.apache.commons.lang3.builder.ReflectionToStringBuilder.appendFieldsIn:1309 -> java.lang.Class.getDeclaredFields
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1309->[Method Call] Call Stack: org.apache.commons.lang3.builder.ReflectionToStringBuilder.appendFieldsIn:1309 -> java.util.Comparator.comparing
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1309->[Method Call] Call Stack: org.apache.commons.lang3.builder.ReflectionToStringBuilder.appendFieldsIn:1309 -> org.apache.commons.lang3.ArraySorter.sort
+org.apache.commons.lang3.builder.ReflectionToStringBuilder:appendFieldsIn:1310->[Local Variables] {"fields":[]}

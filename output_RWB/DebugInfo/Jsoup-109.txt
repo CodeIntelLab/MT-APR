@@ -1,0 +1,4 @@
+
+=== Debug Info for Test: org.jsoup.nodes.PositionTest#tracksClosingHeadingTags ===
+Exception: ['PositionTest.tracksClosingHeadingTags:214 expected: <true> but was: <false>']
+

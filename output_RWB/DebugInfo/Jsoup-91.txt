@@ -1,0 +1,54 @@
+
+=== Debug Info for Test: org.jsoup.helper.DataUtilTest#handlesChunkedInputStream ===
+Exception: ['DataUtilTest.handlesChunkedInputStream:263 » IO Resetting to invalid mark']
+
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:171->[Control Flow] Branch Info: Line: 171, Condition: if (read == read), Executed: false
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:173->[Control Flow] Branch Info: Line: 173, Condition: if (localCapped != 0), Executed: true
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:173->[Control Flow] Branch Info: Line: 173, Condition: if (localCapped != 0), Executed: false
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:175->[Control Flow] Branch Info: Line: 175, Condition: if (max >= max), Executed: false
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:185->[Method Call] Call Stack: org.jsoup.internal.ConstrainableInputStream.readToByteBuffer:185 -> java.io.ByteArrayOutputStream.write
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:161->[Control Flow] Loop Info: Line: 161, Description: while at line 161
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:168->[Local Variables] {"outStream":{"buf":[60,104,116,109,108,62,60,104,101,97,100,62,60,116,105,116,108,101,62,76,97,114,103,101,32,72,84,77,76,60,47,116,"..."],"count":279998}}
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:169->[Method Call] Call Stack: org.jsoup.internal.ConstrainableInputStream.readToByteBuffer:169 -> org.jsoup.internal.ConstrainableInputStream.read
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:170->[Local Variables] {"readBuffer":[111,114,46,32,60,98,62,85,116,32,102,114,105,110,103,105,108,108,97,60,47,98,62,46,32,83,101,100,32,110,111,110,"..."],"read":737}
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:171->[Control Flow] Branch Info: Line: 171, Condition: if (read == read), Executed: false
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:173->[Control Flow] Branch Info: Line: 173, Condition: if (localCapped != 0), Executed: true
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:173->[Control Flow] Branch Info: Line: 173, Condition: if (localCapped != 0), Executed: false
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:175->[Control Flow] Branch Info: Line: 175, Condition: if (max >= max), Executed: false
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:185->[Method Call] Call Stack: org.jsoup.internal.ConstrainableInputStream.readToByteBuffer:185 -> java.io.ByteArrayOutputStream.write
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:161->[Control Flow] Loop Info: Line: 161, Description: while at line 161
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:168->[Local Variables] {"outStream":{"buf":[60,104,116,109,108,62,60,104,101,97,100,62,60,116,105,116,108,101,62,76,97,114,103,101,32,72,84,77,76,60,47,116,"..."],"count":280735}}
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:169->[Method Call] Call Stack: org.jsoup.internal.ConstrainableInputStream.readToByteBuffer:169 -> org.jsoup.internal.ConstrainableInputStream.read
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:170->[Local Variables] {"read":-1}
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:171->[Control Flow] Branch Info: Line: 171, Condition: if (read == read), Executed: true
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:189->[Method Call] Call Stack: org.jsoup.internal.ConstrainableInputStream.readToByteBuffer:189 -> java.io.ByteArrayOutputStream.toByteArray
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:189->[Method Call] Call Stack: org.jsoup.internal.ConstrainableInputStream.readToByteBuffer:189 -> java.nio.ByteBuffer.wrap
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:169->[Method Call] Call Stack: org.jsoup.internal.ConstrainableInputStream.readToByteBuffer:169 -> org.jsoup.internal.ConstrainableInputStream.read
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:170->[Local Variables] {"readBuffer":[101,100,101,32,102,97,99,105,108,105,115,105,115,32,108,97,111,114,101,101,116,46,32,68,111,110,101,99,32,108,97,99,"..."],"read":745}
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:171->[Control Flow] Branch Info: Line: 171, Condition: if (read == read), Executed: false
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:173->[Control Flow] Branch Info: Line: 173, Condition: if (localCapped != 0), Executed: true
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:173->[Control Flow] Branch Info: Line: 173, Condition: if (localCapped != 0), Executed: false
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:175->[Control Flow] Branch Info: Line: 175, Condition: if (max >= max), Executed: false
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:185->[Method Call] Call Stack: org.jsoup.internal.ConstrainableInputStream.readToByteBuffer:185 -> java.io.ByteArrayOutputStream.write
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:161->[Control Flow] Loop Info: Line: 161, Description: while at line 161
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:168->[Local Variables] {"outStream":{"buf":[60,104,116,109,108,62,60,104,101,97,100,62,60,116,105,116,108,101,62,76,97,114,103,101,32,72,84,77,76,60,47,116,"..."],"count":277757}}
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:169->[Method Call] Call Stack: org.jsoup.internal.ConstrainableInputStream.readToByteBuffer:169 -> org.jsoup.internal.ConstrainableInputStream.read
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:170->[Local Variables] {"readBuffer":[110,44,32,99,111,110,118,97,108,108,105,115,32,105,100,44,32,115,97,103,105,116,116,105,115,32,97,116,44,32,110,101,"..."],"read":746}
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:171->[Control Flow] Branch Info: Line: 171, Condition: if (read == read), Executed: false
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:173->[Control Flow] Branch Info: Line: 173, Condition: if (localCapped != 0), Executed: true
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:173->[Control Flow] Branch Info: Line: 173, Condition: if (localCapped != 0), Executed: false
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:175->[Control Flow] Branch Info: Line: 175, Condition: if (max >= max), Executed: false
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:185->[Method Call] Call Stack: org.jsoup.internal.ConstrainableInputStream.readToByteBuffer:185 -> java.io.ByteArrayOutputStream.write
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:161->[Control Flow] Loop Info: Line: 161, Description: while at line 161
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:168->[Local Variables] {"outStream":{"buf":[60,104,116,109,108,62,60,104,101,97,100,62,60,116,105,116,108,101,62,76,97,114,103,101,32,72,84,77,76,60,47,116,"..."],"count":278503}}
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:169->[Method Call] Call Stack: org.jsoup.internal.ConstrainableInputStream.readToByteBuffer:169 -> org.jsoup.internal.ConstrainableInputStream.read
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:170->[Local Variables] {"readBuffer":[32,67,108,97,115,115,32,97,112,116,101,110,116,32,116,97,99,105,116,105,32,115,111,99,105,111,115,113,117,32,97,100,"..."],"read":747}
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:171->[Control Flow] Branch Info: Line: 171, Condition: if (read == read), Executed: false
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:173->[Control Flow] Branch Info: Line: 173, Condition: if (localCapped != 0), Executed: true
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:173->[Control Flow] Branch Info: Line: 173, Condition: if (localCapped != 0), Executed: false
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:175->[Control Flow] Branch Info: Line: 175, Condition: if (max >= max), Executed: false
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:185->[Method Call] Call Stack: org.jsoup.internal.ConstrainableInputStream.readToByteBuffer:185 -> java.io.ByteArrayOutputStream.write
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:161->[Control Flow] Loop Info: Line: 161, Description: while at line 161
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:168->[Local Variables] {"outStream":{"buf":[60,104,116,109,108,62,60,104,101,97,100,62,60,116,105,116,108,101,62,76,97,114,103,101,32,72,84,77,76,60,47,116,"..."],"count":279250}}
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:169->[Method Call] Call Stack: org.jsoup.internal.ConstrainableInputStream.readToByteBuffer:169 -> org.jsoup.internal.ConstrainableInputStream.read
+org.jsoup.internal.ConstrainableInputStream:readToByteBuffer:170->[Local Variables] {"readBuffer":[110,117,98,105,97,32,110,111,115,116,114,97,44,32,112,101,114,32,105,110,99,101,112,116,111,115,32,104,105,109,101,110,"..."],"read":748}

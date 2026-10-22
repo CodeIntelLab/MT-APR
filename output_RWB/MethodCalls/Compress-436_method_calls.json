@@ -1,0 +1,12 @@
+[
+  {
+    "method": "org.apache.commons.compress.archivers.sevenz.LZMADecoder.getDictionarySize",
+    "doc": "[No documentation]",
+    "code": "private int getDictionarySize(final Coder coder) throws IllegalArgumentException {\n\n        return (int) ByteUtils.fromLittleEndian(coder.properties, 1, 4);\n\n    }"
+  },
+  {
+    "method": "org.tukaani.xz.LZMAInputStream.getMemoryUsage",
+    "doc": "[Source file not found]",
+    "code": ""
+  }
+]

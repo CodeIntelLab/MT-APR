@@ -1,0 +1,51 @@
+
+=== Debug Info for Test: org.apache.commons.codec.language.RefinedSoundexTest#testInvalidSoundexCharacter ===
+Exception: ['RefinedSoundexTest.testInvalidSoundexCharacter:89 » ArrayIndexOutOfBounds Index 105 out of bounds for length 26']
+
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Control Flow] Branch Info: Line: 345, Condition: if (c == 0), Executed: false
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:351->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:351 -> java.lang.Character.toUpperCase
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:344->[Local Variables] {"c":"Y"}
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:345 -> java.lang.Character.isLetter
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Control Flow] Branch Info: Line: 345, Condition: if (c == 0), Executed: false
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:351->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:351 -> java.lang.Character.toUpperCase
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:344->[Local Variables] {"c":"Z"}
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:345 -> java.lang.Character.isLetter
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Control Flow] Branch Info: Line: 345, Condition: if (c == 0), Executed: false
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:351->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:351 -> java.lang.Character.toUpperCase
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:344->[Local Variables] {"c":"ª"}
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:345 -> java.lang.Character.isLetter
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Control Flow] Branch Info: Line: 345, Condition: if (c == 0), Executed: false
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:351->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:351 -> java.lang.Character.toUpperCase
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:345 -> java.lang.Character.isLetter
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Control Flow] Branch Info: Line: 345, Condition: if (c == 0), Executed: false
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:351->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:351 -> java.lang.Character.toUpperCase
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:344->[Local Variables] {"c":"Q"}
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:345 -> java.lang.Character.isLetter
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Control Flow] Branch Info: Line: 345, Condition: if (c == 0), Executed: false
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:351->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:351 -> java.lang.Character.toUpperCase
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:344->[Local Variables] {"c":"R"}
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:345 -> java.lang.Character.isLetter
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Control Flow] Branch Info: Line: 345, Condition: if (c == 0), Executed: false
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:351->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:351 -> java.lang.Character.toUpperCase
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:344->[Local Variables] {"c":"S"}
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:345 -> java.lang.Character.isLetter
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Control Flow] Branch Info: Line: 345, Condition: if (c == 0), Executed: false
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:351->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:351 -> java.lang.Character.toUpperCase
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:344->[Local Variables] {"c":"T"}
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:345 -> java.lang.Character.isLetter
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Control Flow] Branch Info: Line: 345, Condition: if (c == 0), Executed: false
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:351->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:351 -> java.lang.Character.toUpperCase
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:344->[Local Variables] {"c":"U"}
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:345 -> java.lang.Character.isLetter
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Control Flow] Branch Info: Line: 345, Condition: if (c == 0), Executed: false
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:351->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:351 -> java.lang.Character.toUpperCase
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:344->[Local Variables] {"c":"V"}
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:345 -> java.lang.Character.isLetter
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Control Flow] Branch Info: Line: 345, Condition: if (c == 0), Executed: false
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:351->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:351 -> java.lang.Character.toUpperCase
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:344->[Local Variables] {"c":"W"}
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:345 -> java.lang.Character.isLetter
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Control Flow] Branch Info: Line: 345, Condition: if (c == 0), Executed: false
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:351->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:351 -> java.lang.Character.toUpperCase
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:344->[Local Variables] {"c":"X"}
+org.apache.commons.codec.language.RefinedSoundex:getMappingCode:345->[Method Call] Call Stack: org.apache.commons.codec.language.RefinedSoundex.getMappingCode:345 -> java.lang.Character.isLetter

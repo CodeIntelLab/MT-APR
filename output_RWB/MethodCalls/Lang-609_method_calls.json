@@ -1,0 +1,27 @@
+[
+  {
+    "method": "org.apache.commons.lang3.ArraySorter.sort",
+    "doc": "/**\n     * Sorts and returns the given array.\n     *\n     * @param array the array to sort.\n     * @return the given array.\n     * @see Arrays#sort(byte[])\n     */",
+    "code": "public static byte[] sort(final byte[] array) {\n        Arrays.sort(array);\n        return array;\n    }"
+  },
+  {
+    "method": "org.apache.commons.lang3.builder.Reflection.getUnchecked",
+    "doc": "/**\n     * Delegates to {@link Field#get(Object)} and rethrows {@link IllegalAccessException} as {@link IllegalArgumentException}.\n     *\n     * @param field The receiver of the get call.\n     * @param obj   The argument of the get call.\n     * @return The result of the get call.\n     * @throws IllegalArgumentException Thrown after catching {@link IllegalAccessException}.\n     */",
+    "code": "static Object getUnchecked(final Field field, final Object obj) {\n        try {\n            return Objects.requireNonNull(field, \"field\").get(obj);\n        } catch (IllegalAccessException e) {\n            throw new IllegalArgumentException(e);\n        }\n    }"
+  },
+  {
+    "method": "org.apache.commons.lang3.builder.ReflectionToStringBuilder.accept",
+    "doc": "/**\n\n     * Returns whether or not to append the given {@link Field}.\n\n     * <ul>\n\n     * <li>Transient fields are appended only if {@link #isAppendTransients()} returns {@code true}.\n\n     * <li>Static fields are appended only if {@link #isAppendStatics()} returns {@code true}.\n\n     * <li>Inner class fields are not appended.</li>\n\n     * </ul>\n\n     *\n\n     * @param field\n\n     *            The Field to test.\n\n     * @return Whether or not to append the given {@link Field}.\n\n     */",
+    "code": "protected boolean accept(final Field field) {\n\n        if (field.getName().indexOf(ClassUtils.INNER_CLASS_SEPARATOR_CHAR) != -1) {\n\n\n            return false;\n\n        }\n\n        if (Modifier.isTransient(field.getModifiers()) && !this.isAppendTransients()) {\n\n\n            return false;\n\n        }\n\n        if (Modifier.isStatic(field.getModifiers()) && !this.isAppendStatics()) {\n\n\n            return false;\n\n        }\n\n\n\n        if (this.excludeFieldNames != null\n\n            && Arrays.binarySearch(this.excludeFieldNames, field.getName()) >= 0) {\n\n\n            return false;\n\n        }\n\n\n\n        if (ArrayUtils.isNotEmpty(includeFieldNames)) {\n\n\n            return Arrays.binarySearch(this.includeFieldNames, field.getName()) >= 0;\n\n        }\n\n\n\n        return !field.isAnnotationPresent(ToStringExclude.class);\n\n    }"
+  },
+  {
+    "method": "org.apache.commons.lang3.builder.ReflectionToStringBuilder.append",
+    "doc": "[No documentation]",
+    "code": "[No method body]"
+  },
+  {
+    "method": "org.apache.commons.lang3.builder.ReflectionToStringBuilder.getObject",
+    "doc": "[No documentation]",
+    "code": "[No method body]"
+  }
+]

@@ -1,0 +1,4 @@
+
+=== Debug Info for Test: org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest#testGetFirstEntryEmptyZip ===
+Exception: ['ZipArchiveInputStreamTest.testGetFirstEntryEmptyZip:779 » Zip Cannot find zip signature within the file']
+

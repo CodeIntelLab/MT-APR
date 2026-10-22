@@ -1,0 +1,15 @@
+
+=== Debug Info for Test: org.apache.commons.compress.archivers.sevenz.SevenZFileTest#testSevenZWithEOS ===
+Exception: ['SevenZFileTest.testSevenZWithEOS:833 » CorruptedInput Compressed data is corrupt']
+
+org.apache.commons.compress.archivers.sevenz.LZMADecoder:decode:74->[Local Variables] "{uncompressedLength\u003d54, coder\u003dorg.apache.commons.compress.archivers.sevenz.Coder@26a4842b, password\u003dnull, in\u003dorg.apache.commons.compress.archivers.sevenz.BoundedSeekableByteChannelInputStream@7e38a7fe, archiveName\u003d/home/guji/ReflectFix_Ablation/Datasets/RWB/Compress/437f/target/test-classes/lzma-with-eos.7z, maxMemoryLimitInKb\u003d2147483647}"
+org.apache.commons.compress.archivers.sevenz.LZMADecoder:decode:75->[Control Flow] Branch Info: Line: 75, Condition: if (this.properties == null), Executed: false
+org.apache.commons.compress.archivers.sevenz.LZMADecoder:decode:81->[Control Flow] Branch Info: Line: 81, Condition: if (this.properties < this.properties), Executed: false
+org.apache.commons.compress.archivers.sevenz.LZMADecoder:decode:88->[Local Variables] {"propsByte":94}
+org.apache.commons.compress.archivers.sevenz.LZMADecoder:decode:89->[Method Call] Call Stack: org.apache.commons.compress.archivers.sevenz.LZMADecoder.decode:89 -> org.apache.commons.compress.archivers.sevenz.LZMADecoder.getDictionarySize
+org.apache.commons.compress.archivers.sevenz.LZMADecoder:decode:90->[Local Variables] {"dictSize":65536}
+org.apache.commons.compress.archivers.sevenz.LZMADecoder:decode:91->[Control Flow] Branch Info: Line: 91, Condition: if (dictSize > dictSize), Executed: false
+org.apache.commons.compress.archivers.sevenz.LZMADecoder:decode:97->[Method Call] Call Stack: org.apache.commons.compress.archivers.sevenz.LZMADecoder.decode:97 -> org.tukaani.xz.LZMAInputStream.getMemoryUsage
+org.apache.commons.compress.archivers.sevenz.LZMADecoder:decode:98->[Local Variables] {"memoryUsageInKb":98}
+org.apache.commons.compress.archivers.sevenz.LZMADecoder:decode:99->[Control Flow] Branch Info: Line: 99, Condition: if (maxMemoryLimitInKb > maxMemoryLimitInKb), Executed: false
+org.apache.commons.compress.archivers.sevenz.LZMADecoder:decode:105->[Method Call] Call Stack: org.apache.commons.compress.archivers.sevenz.LZMADecoder.decode:105 -> org.tukaani.xz.LZMAInputStream.<init>

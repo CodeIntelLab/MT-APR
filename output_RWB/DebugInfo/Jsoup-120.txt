@@ -1,0 +1,124 @@
+
+=== Debug Info for Test: org.jsoup.select.SelectorTest#orAfterClass ===
+Exception: ["QueryParserTest.parsesOrAfterAttribute:140 expected: <(Or (And (Parent (Id '#parent'))(AttributeWithValueContaining '[class*=child]'))(And (Class '.nested')(Parent (Class '.some-other-selector'))))> but was: <(And (Class '.nested')(Parent (And (Parent (Id '#parent'))(Or (AttributeWithValueContaining '[class*=child]')(Class '.some-other-selector')))))>", "SelectorTest.orAfterClass:1229 expected: <(Or (And (Parent (Id '#parent'))(AttributeWithValueContaining '[class*=child]'))(And (Class '.nested')(Parent (Class '.some-other-selector'))))> but was: <(And (Class '.nested')(Parent (And (Parent (Id '#parent'))(Or (AttributeWithValueContaining '[class*=child]')(Class '.some-other-selector')))))>"]
+
+org.jsoup.select.QueryParser:consumeSubQuery:299->[Control Flow] Branch Info: Line: 299, Condition: if (org.jsoup.parser.TokenQueue.matches() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:303->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:303 -> org.jsoup.parser.TokenQueue.matches
+org.jsoup.select.QueryParser:consumeSubQuery:303->[Control Flow] Branch Info: Line: 303, Condition: if (org.jsoup.parser.TokenQueue.matches() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:307->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:307 -> org.jsoup.parser.TokenQueue.matchesAny
+org.jsoup.select.QueryParser:consumeSubQuery:307->[Control Flow] Branch Info: Line: 307, Condition: if (org.jsoup.parser.TokenQueue.matchesAny() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:321->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:321 -> org.jsoup.parser.TokenQueue.consume
+org.jsoup.select.QueryParser:consumeSubQuery:321->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:321 -> java.lang.StringBuilder.append
+org.jsoup.select.QueryParser:consumeSubQuery:295->[Control Flow] Loop Info: Line: 295, Description: while at line 295
+org.jsoup.select.QueryParser:consumeSubQuery:296->[Local Variables] {"sq":".neste"}
+org.jsoup.select.QueryParser:consumeSubQuery:297->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:297 -> org.jsoup.parser.TokenQueue.isEmpty
+org.jsoup.select.QueryParser:consumeSubQuery:297->[Control Flow] Branch Info: Line: 297, Condition: if (org.jsoup.parser.TokenQueue.isEmpty() == 0), Executed: true
+org.jsoup.select.QueryParser:consumeSubQuery:299->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:299 -> org.jsoup.parser.TokenQueue.matches
+org.jsoup.select.QueryParser:consumeSubQuery:299->[Control Flow] Branch Info: Line: 299, Condition: if (org.jsoup.parser.TokenQueue.matches() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:303->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:303 -> org.jsoup.parser.TokenQueue.matches
+org.jsoup.select.QueryParser:consumeSubQuery:303->[Control Flow] Branch Info: Line: 303, Condition: if (org.jsoup.parser.TokenQueue.matches() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:307->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:307 -> org.jsoup.parser.TokenQueue.matchesAny
+org.jsoup.select.QueryParser:consumeSubQuery:307->[Control Flow] Branch Info: Line: 307, Condition: if (org.jsoup.parser.TokenQueue.matchesAny() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:321->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:321 -> org.jsoup.parser.TokenQueue.consume
+org.jsoup.select.QueryParser:consumeSubQuery:321->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:321 -> java.lang.StringBuilder.append
+org.jsoup.select.QueryParser:consumeSubQuery:295->[Control Flow] Loop Info: Line: 295, Description: while at line 295
+org.jsoup.select.QueryParser:consumeSubQuery:296->[Local Variables] {"sq":".nested"}
+org.jsoup.select.QueryParser:consumeSubQuery:297->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:297 -> org.jsoup.parser.TokenQueue.isEmpty
+org.jsoup.select.QueryParser:consumeSubQuery:297->[Control Flow] Branch Info: Line: 297, Condition: if (org.jsoup.parser.TokenQueue.isEmpty() == 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:327->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:327 -> org.jsoup.internal.StringUtil.releaseBuilder
+org.jsoup.select.QueryParser:consumeSubQuery:303->[Control Flow] Branch Info: Line: 303, Condition: if (org.jsoup.parser.TokenQueue.matches() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:307->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:307 -> org.jsoup.parser.TokenQueue.matchesAny
+org.jsoup.select.QueryParser:consumeSubQuery:307->[Control Flow] Branch Info: Line: 307, Condition: if (org.jsoup.parser.TokenQueue.matchesAny() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:321->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:321 -> org.jsoup.parser.TokenQueue.consume
+org.jsoup.select.QueryParser:consumeSubQuery:321->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:321 -> java.lang.StringBuilder.append
+org.jsoup.select.QueryParser:consumeSubQuery:295->[Control Flow] Loop Info: Line: 295, Description: while at line 295
+org.jsoup.select.QueryParser:consumeSubQuery:296->[Local Variables] {"sq":".ne"}
+org.jsoup.select.QueryParser:consumeSubQuery:297->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:297 -> org.jsoup.parser.TokenQueue.isEmpty
+org.jsoup.select.QueryParser:consumeSubQuery:297->[Control Flow] Branch Info: Line: 297, Condition: if (org.jsoup.parser.TokenQueue.isEmpty() == 0), Executed: true
+org.jsoup.select.QueryParser:consumeSubQuery:299->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:299 -> org.jsoup.parser.TokenQueue.matches
+org.jsoup.select.QueryParser:consumeSubQuery:299->[Control Flow] Branch Info: Line: 299, Condition: if (org.jsoup.parser.TokenQueue.matches() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:303->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:303 -> org.jsoup.parser.TokenQueue.matches
+org.jsoup.select.QueryParser:consumeSubQuery:303->[Control Flow] Branch Info: Line: 303, Condition: if (org.jsoup.parser.TokenQueue.matches() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:307->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:307 -> org.jsoup.parser.TokenQueue.matchesAny
+org.jsoup.select.QueryParser:consumeSubQuery:307->[Control Flow] Branch Info: Line: 307, Condition: if (org.jsoup.parser.TokenQueue.matchesAny() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:321->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:321 -> org.jsoup.parser.TokenQueue.consume
+org.jsoup.select.QueryParser:consumeSubQuery:321->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:321 -> java.lang.StringBuilder.append
+org.jsoup.select.QueryParser:consumeSubQuery:295->[Control Flow] Loop Info: Line: 295, Description: while at line 295
+org.jsoup.select.QueryParser:consumeSubQuery:296->[Local Variables] {"sq":".nes"}
+org.jsoup.select.QueryParser:consumeSubQuery:297->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:297 -> org.jsoup.parser.TokenQueue.isEmpty
+org.jsoup.select.QueryParser:consumeSubQuery:297->[Control Flow] Branch Info: Line: 297, Condition: if (org.jsoup.parser.TokenQueue.isEmpty() == 0), Executed: true
+org.jsoup.select.QueryParser:consumeSubQuery:299->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:299 -> org.jsoup.parser.TokenQueue.matches
+org.jsoup.select.QueryParser:consumeSubQuery:299->[Control Flow] Branch Info: Line: 299, Condition: if (org.jsoup.parser.TokenQueue.matches() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:303->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:303 -> org.jsoup.parser.TokenQueue.matches
+org.jsoup.select.QueryParser:consumeSubQuery:303->[Control Flow] Branch Info: Line: 303, Condition: if (org.jsoup.parser.TokenQueue.matches() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:307->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:307 -> org.jsoup.parser.TokenQueue.matchesAny
+org.jsoup.select.QueryParser:consumeSubQuery:307->[Control Flow] Branch Info: Line: 307, Condition: if (org.jsoup.parser.TokenQueue.matchesAny() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:321->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:321 -> org.jsoup.parser.TokenQueue.consume
+org.jsoup.select.QueryParser:consumeSubQuery:321->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:321 -> java.lang.StringBuilder.append
+org.jsoup.select.QueryParser:consumeSubQuery:295->[Control Flow] Loop Info: Line: 295, Description: while at line 295
+org.jsoup.select.QueryParser:consumeSubQuery:296->[Local Variables] {"sq":".nest"}
+org.jsoup.select.QueryParser:consumeSubQuery:297->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:297 -> org.jsoup.parser.TokenQueue.isEmpty
+org.jsoup.select.QueryParser:consumeSubQuery:297->[Control Flow] Branch Info: Line: 297, Condition: if (org.jsoup.parser.TokenQueue.isEmpty() == 0), Executed: true
+org.jsoup.select.QueryParser:consumeSubQuery:299->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:299 -> org.jsoup.parser.TokenQueue.matches
+
+=== Debug Info for Test: org.jsoup.select.QueryParserTest#parsesOrAfterAttribute ===
+Exception: ["QueryParserTest.parsesOrAfterAttribute:140 expected: <(Or (And (Parent (Id '#parent'))(AttributeWithValueContaining '[class*=child]'))(And (Class '.nested')(Parent (Class '.some-other-selector'))))> but was: <(And (Class '.nested')(Parent (And (Parent (Id '#parent'))(Or (AttributeWithValueContaining '[class*=child]')(Class '.some-other-selector')))))>", "SelectorTest.orAfterClass:1229 expected: <(Or (And (Parent (Id '#parent'))(AttributeWithValueContaining '[class*=child]'))(And (Class '.nested')(Parent (Class '.some-other-selector'))))> but was: <(And (Class '.nested')(Parent (And (Parent (Id '#parent'))(Or (AttributeWithValueContaining '[class*=child]')(Class '.some-other-selector')))))>"]
+
+org.jsoup.select.QueryParser:consumeSubQuery:299->[Control Flow] Branch Info: Line: 299, Condition: if (org.jsoup.parser.TokenQueue.matches() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:303->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:303 -> org.jsoup.parser.TokenQueue.matches
+org.jsoup.select.QueryParser:consumeSubQuery:303->[Control Flow] Branch Info: Line: 303, Condition: if (org.jsoup.parser.TokenQueue.matches() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:307->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:307 -> org.jsoup.parser.TokenQueue.matchesAny
+org.jsoup.select.QueryParser:consumeSubQuery:307->[Control Flow] Branch Info: Line: 307, Condition: if (org.jsoup.parser.TokenQueue.matchesAny() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:321->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:321 -> org.jsoup.parser.TokenQueue.consume
+org.jsoup.select.QueryParser:consumeSubQuery:321->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:321 -> java.lang.StringBuilder.append
+org.jsoup.select.QueryParser:consumeSubQuery:295->[Control Flow] Loop Info: Line: 295, Description: while at line 295
+org.jsoup.select.QueryParser:consumeSubQuery:296->[Local Variables] {"sq":".neste"}
+org.jsoup.select.QueryParser:consumeSubQuery:297->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:297 -> org.jsoup.parser.TokenQueue.isEmpty
+org.jsoup.select.QueryParser:consumeSubQuery:297->[Control Flow] Branch Info: Line: 297, Condition: if (org.jsoup.parser.TokenQueue.isEmpty() == 0), Executed: true
+org.jsoup.select.QueryParser:consumeSubQuery:299->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:299 -> org.jsoup.parser.TokenQueue.matches
+org.jsoup.select.QueryParser:consumeSubQuery:299->[Control Flow] Branch Info: Line: 299, Condition: if (org.jsoup.parser.TokenQueue.matches() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:303->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:303 -> org.jsoup.parser.TokenQueue.matches
+org.jsoup.select.QueryParser:consumeSubQuery:303->[Control Flow] Branch Info: Line: 303, Condition: if (org.jsoup.parser.TokenQueue.matches() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:307->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:307 -> org.jsoup.parser.TokenQueue.matchesAny
+org.jsoup.select.QueryParser:consumeSubQuery:307->[Control Flow] Branch Info: Line: 307, Condition: if (org.jsoup.parser.TokenQueue.matchesAny() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:321->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:321 -> org.jsoup.parser.TokenQueue.consume
+org.jsoup.select.QueryParser:consumeSubQuery:321->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:321 -> java.lang.StringBuilder.append
+org.jsoup.select.QueryParser:consumeSubQuery:295->[Control Flow] Loop Info: Line: 295, Description: while at line 295
+org.jsoup.select.QueryParser:consumeSubQuery:296->[Local Variables] {"sq":".nested"}
+org.jsoup.select.QueryParser:consumeSubQuery:297->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:297 -> org.jsoup.parser.TokenQueue.isEmpty
+org.jsoup.select.QueryParser:consumeSubQuery:297->[Control Flow] Branch Info: Line: 297, Condition: if (org.jsoup.parser.TokenQueue.isEmpty() == 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:327->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:327 -> org.jsoup.internal.StringUtil.releaseBuilder
+org.jsoup.select.QueryParser:consumeSubQuery:303->[Control Flow] Branch Info: Line: 303, Condition: if (org.jsoup.parser.TokenQueue.matches() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:307->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:307 -> org.jsoup.parser.TokenQueue.matchesAny
+org.jsoup.select.QueryParser:consumeSubQuery:307->[Control Flow] Branch Info: Line: 307, Condition: if (org.jsoup.parser.TokenQueue.matchesAny() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:321->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:321 -> org.jsoup.parser.TokenQueue.consume
+org.jsoup.select.QueryParser:consumeSubQuery:321->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:321 -> java.lang.StringBuilder.append
+org.jsoup.select.QueryParser:consumeSubQuery:295->[Control Flow] Loop Info: Line: 295, Description: while at line 295
+org.jsoup.select.QueryParser:consumeSubQuery:296->[Local Variables] {"sq":".ne"}
+org.jsoup.select.QueryParser:consumeSubQuery:297->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:297 -> org.jsoup.parser.TokenQueue.isEmpty
+org.jsoup.select.QueryParser:consumeSubQuery:297->[Control Flow] Branch Info: Line: 297, Condition: if (org.jsoup.parser.TokenQueue.isEmpty() == 0), Executed: true
+org.jsoup.select.QueryParser:consumeSubQuery:299->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:299 -> org.jsoup.parser.TokenQueue.matches
+org.jsoup.select.QueryParser:consumeSubQuery:299->[Control Flow] Branch Info: Line: 299, Condition: if (org.jsoup.parser.TokenQueue.matches() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:303->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:303 -> org.jsoup.parser.TokenQueue.matches
+org.jsoup.select.QueryParser:consumeSubQuery:303->[Control Flow] Branch Info: Line: 303, Condition: if (org.jsoup.parser.TokenQueue.matches() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:307->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:307 -> org.jsoup.parser.TokenQueue.matchesAny
+org.jsoup.select.QueryParser:consumeSubQuery:307->[Control Flow] Branch Info: Line: 307, Condition: if (org.jsoup.parser.TokenQueue.matchesAny() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:321->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:321 -> org.jsoup.parser.TokenQueue.consume
+org.jsoup.select.QueryParser:consumeSubQuery:321->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:321 -> java.lang.StringBuilder.append
+org.jsoup.select.QueryParser:consumeSubQuery:295->[Control Flow] Loop Info: Line: 295, Description: while at line 295
+org.jsoup.select.QueryParser:consumeSubQuery:296->[Local Variables] {"sq":".nes"}
+org.jsoup.select.QueryParser:consumeSubQuery:297->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:297 -> org.jsoup.parser.TokenQueue.isEmpty
+org.jsoup.select.QueryParser:consumeSubQuery:297->[Control Flow] Branch Info: Line: 297, Condition: if (org.jsoup.parser.TokenQueue.isEmpty() == 0), Executed: true
+org.jsoup.select.QueryParser:consumeSubQuery:299->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:299 -> org.jsoup.parser.TokenQueue.matches
+org.jsoup.select.QueryParser:consumeSubQuery:299->[Control Flow] Branch Info: Line: 299, Condition: if (org.jsoup.parser.TokenQueue.matches() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:303->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:303 -> org.jsoup.parser.TokenQueue.matches
+org.jsoup.select.QueryParser:consumeSubQuery:303->[Control Flow] Branch Info: Line: 303, Condition: if (org.jsoup.parser.TokenQueue.matches() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:307->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:307 -> org.jsoup.parser.TokenQueue.matchesAny
+org.jsoup.select.QueryParser:consumeSubQuery:307->[Control Flow] Branch Info: Line: 307, Condition: if (org.jsoup.parser.TokenQueue.matchesAny() != 0), Executed: false
+org.jsoup.select.QueryParser:consumeSubQuery:321->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:321 -> org.jsoup.parser.TokenQueue.consume
+org.jsoup.select.QueryParser:consumeSubQuery:321->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:321 -> java.lang.StringBuilder.append
+org.jsoup.select.QueryParser:consumeSubQuery:295->[Control Flow] Loop Info: Line: 295, Description: while at line 295
+org.jsoup.select.QueryParser:consumeSubQuery:296->[Local Variables] {"sq":".nest"}
+org.jsoup.select.QueryParser:consumeSubQuery:297->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:297 -> org.jsoup.parser.TokenQueue.isEmpty
+org.jsoup.select.QueryParser:consumeSubQuery:297->[Control Flow] Branch Info: Line: 297, Condition: if (org.jsoup.parser.TokenQueue.isEmpty() == 0), Executed: true
+org.jsoup.select.QueryParser:consumeSubQuery:299->[Method Call] Call Stack: org.jsoup.select.QueryParser.consumeSubQuery:299 -> org.jsoup.parser.TokenQueue.matches

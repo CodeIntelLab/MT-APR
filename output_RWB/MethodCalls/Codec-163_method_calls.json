@@ -1,0 +1,7 @@
+[
+  {
+    "method": "org.apache.commons.codec.net.QuotedPrintableCodec.getUnsignedOctet",
+    "doc": "/**\n\n     * Return the byte at position {@code index} of the byte array and\n\n     * make sure it is unsigned.\n\n     *\n\n     * @param index\n\n     *            position in the array\n\n     * @param bytes\n\n     *            the byte array\n\n     * @return the unsigned octet at position {@code index} from the array\n\n     */",
+    "code": "private static int getUnsignedOctet(final int index, final byte[] bytes) {\n\n        int b = bytes[index];\n\n        if (b < 0) {\n\n            b = 256 + b;\n\n        }\n\n        return b;\n\n    }"
+  }
+]

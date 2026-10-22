@@ -1,0 +1,8 @@
+
+=== Debug Info for Test: org.jsoup.nodes.ElementTest#emptyDetachesChildren ===
+Exception: ['ElementTest.emptyDetachesChildren:2789 expected: <null> but was: <<div></div>>', 'ElementTest.emptyAndAddPreviousChild:2803 » IndexOutOfBounds Index 0 out of bounds for length 0']
+
+
+=== Debug Info for Test: org.jsoup.nodes.ElementTest#emptyAndAddPreviousChild ===
+Exception: ['ElementTest.emptyDetachesChildren:2789 expected: <null> but was: <<div></div>>', 'ElementTest.emptyAndAddPreviousChild:2803 » IndexOutOfBounds Index 0 out of bounds for length 0']
+

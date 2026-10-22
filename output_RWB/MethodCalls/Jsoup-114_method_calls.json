@@ -1,0 +1,27 @@
+[
+  {
+    "method": "org.jsoup.internal.StringUtil.releaseBuilder",
+    "doc": "/**\n     * Release a borrowed builder. Care must be taken not to use the builder after it has been returned, as its\n     * contents may be changed by this method, or by a concurrent thread.\n     * @param sb the StringBuilder to release.\n     * @return the string value of the released String Builder (as an incentive to release it!).\n     */",
+    "code": "public static String releaseBuilder(StringBuilder sb) {\n        Validate.notNull(sb);\n        String string = sb.toString();\n\n        if (sb.length() > MaxCachedBuilderSize)\n            sb = new StringBuilder(MaxCachedBuilderSize); // make sure it hasn't grown too big\n        else\n            sb.delete(0, sb.length()); // make sure it's emptied on release\n\n        Stack<StringBuilder> builders = threadLocalBuilders.get();\n        builders.push(sb);\n\n        while (builders.size() > MaxIdleBuilders) {\n            builders.pop();\n        }\n        return string;\n    }"
+  },
+  {
+    "method": "org.jsoup.parser.TokenQueue.consume",
+    "doc": "/**\n     * Consume one character off queue.\n     * @return first character on queue.\n     */",
+    "code": "public char consume() {\n        return queue.charAt(pos++);\n    }"
+  },
+  {
+    "method": "org.jsoup.parser.TokenQueue.isEmpty",
+    "doc": "/**\n     * Is the queue empty?\n     * @return true if no data left in queue.\n     */",
+    "code": "public boolean isEmpty() {\n        return remainingLength() == 0;\n    }"
+  },
+  {
+    "method": "org.jsoup.parser.TokenQueue.matches",
+    "doc": "/**\n     * Tests if the next characters on the queue match the sequence. Case insensitive.\n     * @param seq String to check queue for.\n     * @return true if the next characters match.\n     */",
+    "code": "public boolean matches(String seq) {\n        return queue.regionMatches(true, pos, seq, 0, seq.length());\n    }"
+  },
+  {
+    "method": "org.jsoup.parser.TokenQueue.matchesAny",
+    "doc": "/**\n     Tests if the next characters match any of the sequences. Case insensitive.\n     @param seq list of strings to case insensitively check for\n     @return true of any matched, false if none did\n     */",
+    "code": "public boolean matchesAny(String... seq) {\n        for (String s : seq) {\n            if (matches(s))\n                return true;\n        }\n        return false;\n    }"
+  }
+]

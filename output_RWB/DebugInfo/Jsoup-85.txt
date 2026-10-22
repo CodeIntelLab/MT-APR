@@ -1,0 +1,10 @@
+
+=== Debug Info for Test: org.jsoup.nodes.AttributeTest#booleanAttributesAreNotCaseSensitive ===
+Exception: ['AttributeTest.booleanAttributesAreNotCaseSensitive:81 expected: <true> but was: <false>']
+
+org.jsoup.nodes.Attribute:isBooleanAttribute:432->[Local Variables] {"key":"required"}
+org.jsoup.nodes.Attribute:isBooleanAttribute:433->[Method Call] Call Stack: org.jsoup.nodes.Attribute.isBooleanAttribute:433 -> java.util.Arrays.binarySearch
+org.jsoup.nodes.Attribute:isBooleanAttribute:433->[Control Flow] Branch Info: Line: 433, Condition: if (key >= 0), Executed: true
+org.jsoup.nodes.Attribute:isBooleanAttribute:432->[Local Variables] {"key":"REQUIRED"}
+org.jsoup.nodes.Attribute:isBooleanAttribute:433->[Method Call] Call Stack: org.jsoup.nodes.Attribute.isBooleanAttribute:433 -> java.util.Arrays.binarySearch
+org.jsoup.nodes.Attribute:isBooleanAttribute:433->[Control Flow] Branch Info: Line: 433, Condition: if (key >= 0), Executed: false

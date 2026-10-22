@@ -1,0 +1,54 @@
+
+=== Debug Info for Test: org.apache.commons.lang3.reflect.MethodUtilsTest#testGetMatchingMethod ===
+Exception: ['MethodUtilsTest.testGetMatchingMethod:1057 » IllegalState Found multiple candidates for method testMethod5(class java.lang.RuntimeException) on class org.apache.commons.lang3.reflect.MethodUtilsTest$GetMatchingMethodImpl : [public void org.apache.commons.lang3.reflect.MethodUtilsTest$GetMatchingMethodImpl.testMethod5(java.lang.Exception),public abstract void org.apache.commons.lang3.reflect.MethodUtilsTest$AbstractGetMatchingMethod.testMethod5(java.lang.Exception)]']
+
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1465->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1465 -> java.util.Iterator.hasNext
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1465->[Control Flow] Branch Info: Line: 1465, Condition: if (candidates != 0), Executed: false
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1477->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1477 -> java.util.TreeMap.<init>
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1481->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1481 -> java.util.List.stream
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1483->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1483 -> java.util.stream.Stream.filter
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1485->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1485 -> java.util.stream.Stream.forEach
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1497->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1497 -> java.util.TreeMap.isEmpty
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1497->[Control Flow] Branch Info: Line: 1497, Condition: if (java.util.TreeMap.isEmpty() != 0), Executed: false
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1505->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1505 -> java.util.TreeMap.values
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1505->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1505 -> java.util.Collection.iterator
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1505->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1505 -> java.util.Iterator.next
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1507->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1507 -> java.util.List.size
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1507->[Control Flow] Branch Info: Line: 1507, Condition: if (bestCandidates == bestCandidates), Executed: false
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1515->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1515 -> java.lang.StringBuilder.append
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1519->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1519 -> java.util.stream.Stream.of
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1519->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1519 -> java.util.stream.Stream.map
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1519->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1519 -> java.util.stream.Collectors.joining
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1519->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1519 -> java.util.stream.Stream.collect
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1519->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1519 -> java.lang.StringBuilder.append
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1519->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1519 -> java.lang.StringBuilder.toString
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1521->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1521 -> java.lang.Class.getName
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1523->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1523 -> java.util.List.stream
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1523->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1523 -> java.util.stream.Stream.map
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1523->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1523 -> java.util.stream.Collectors.joining
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1523->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1523 -> java.util.stream.Stream.collect
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1517->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1517 -> java.lang.String.format
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1453->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1453 -> org.apache.commons.lang3.ClassUtils.getAllSuperclasses
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1453->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1453 -> java.util.List.stream
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1455->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1455 -> java.util.stream.Stream.map
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1457->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1457 -> java.util.stream.Stream.flatMap
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1459->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1459 -> java.util.stream.Stream.filter
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1461->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1461 -> java.util.Objects.requireNonNull
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1461->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1461 -> java.util.stream.Stream.forEach
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1465->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1465 -> java.util.List.iterator
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1465->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1465 -> java.util.Iterator.hasNext
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1465->[Control Flow] Branch Info: Line: 1465, Condition: if (candidates != 0), Executed: true
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1465->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1465 -> java.util.Iterator.next
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1466->[Local Variables] {"method":{"clazz":"class org.apache.commons.lang3.reflect.MethodUtilsTest$GetMatchingMethodImpl","slot":1,"name":"testMethod5","returnType":"void","parameterTypes":["class java.lang.Exception"],"exceptionTypes":[],"modifiers":1,"root":{"clazz":"class org.apache.commons.lang3.reflect.MethodUtilsTest$GetMatchingMethodImpl","slot":1,"name":"testMethod5","returnType":"void","parameterTypes":["class java.lang.Exception"],"exceptionTypes":[],"modifiers":1,"override":false},"override":false}}
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1467->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1467 -> java.lang.reflect.Method.getParameterTypes
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1467->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1467 -> java.util.Arrays.deepEquals
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1467->[Control Flow] Branch Info: Line: 1467, Condition: if (parameterTypes != 0), Executed: false
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1465->[Control Flow] Loop Info: Line: 1465, Description: while at line 1465
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1465->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1465 -> java.util.Iterator.hasNext
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1465->[Control Flow] Branch Info: Line: 1465, Condition: if (candidates != 0), Executed: true
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1465->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1465 -> java.util.Iterator.next
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1466->[Local Variables] {"method":{"clazz":"class org.apache.commons.lang3.reflect.MethodUtilsTest$AbstractGetMatchingMethod","slot":1,"name":"testMethod5","returnType":"void","parameterTypes":["class java.lang.Exception"],"exceptionTypes":[],"modifiers":1025,"root":{"clazz":"class org.apache.commons.lang3.reflect.MethodUtilsTest$AbstractGetMatchingMethod","slot":1,"name":"testMethod5","returnType":"void","parameterTypes":["class java.lang.Exception"],"exceptionTypes":[],"modifiers":1025,"override":false},"override":false}}
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1467->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1467 -> java.lang.reflect.Method.getParameterTypes
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1467->[Method Call] Call Stack: org.apache.commons.lang3.reflect.MethodUtils.getMatchingMethod:1467 -> java.util.Arrays.deepEquals
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1467->[Control Flow] Branch Info: Line: 1467, Condition: if (parameterTypes != 0), Executed: false
+org.apache.commons.lang3.reflect.MethodUtils:getMatchingMethod:1465->[Control Flow] Loop Info: Line: 1465, Description: while at line 1465

@@ -1,0 +1,25 @@
+
+=== Debug Info for Test: org.apache.commons.compress.archivers.zip.ZipUtilTest#testIsDosTime ===
+Exception: []
+
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:470->[Local Variables] {"time":160412400000}
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:471->[Control Flow] Branch Info: Line: 471, Condition: if (time <= 0), Executed: true
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:471->[Method Call] Call Stack: org.apache.commons.compress.archivers.zip.ZipUtil.isDosTime:471 -> org.apache.commons.compress.archivers.zip.ZipUtil.javaToDosTime
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:471->[Control Flow] Branch Info: Line: 471, Condition: if (time <= 0), Executed: false
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:471->[Control Flow] Branch Info: Line: 471, Condition: if (time != 0), Executed: false
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:470->[Local Variables] {"time":315676800000}
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:471->[Control Flow] Branch Info: Line: 471, Condition: if (time <= 0), Executed: true
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:471->[Method Call] Call Stack: org.apache.commons.compress.archivers.zip.ZipUtil.isDosTime:471 -> org.apache.commons.compress.archivers.zip.ZipUtil.javaToDosTime
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:471->[Control Flow] Branch Info: Line: 471, Condition: if (time != 0), Executed: true
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:470->[Local Variables] {"time":4036320000000}
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:471->[Control Flow] Branch Info: Line: 471, Condition: if (time <= 0), Executed: true
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:471->[Method Call] Call Stack: org.apache.commons.compress.archivers.zip.ZipUtil.isDosTime:471 -> org.apache.commons.compress.archivers.zip.ZipUtil.javaToDosTime
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:471->[Control Flow] Branch Info: Line: 471, Condition: if (time != 0), Executed: true
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:470->[Local Variables] {"time":4070880000000}
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:471->[Control Flow] Branch Info: Line: 471, Condition: if (time <= 0), Executed: false
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:471->[Control Flow] Branch Info: Line: 471, Condition: if (time != 0), Executed: false
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:470->[Local Variables] {"time":315504000000}
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:471->[Control Flow] Branch Info: Line: 471, Condition: if (time <= 0), Executed: true
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:471->[Method Call] Call Stack: org.apache.commons.compress.archivers.zip.ZipUtil.isDosTime:471 -> org.apache.commons.compress.archivers.zip.ZipUtil.javaToDosTime
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:471->[Control Flow] Branch Info: Line: 471, Condition: if (time <= 0), Executed: false
+org.apache.commons.compress.archivers.zip.ZipUtil:isDosTime:471->[Control Flow] Branch Info: Line: 471, Condition: if (time != 0), Executed: false

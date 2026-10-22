@@ -1,0 +1,6 @@
+
+=== Debug Info for Test: org.apache.commons.cli.DefaultParserTest#testAmbiguousArgParsing ===
+Exception: ['DefaultParserTest.testAmbiguousArgParsing »  Unexpected exception, expected<org.apache.commons.cli.UnrecognizedOptionException> but was<java.lang.StringIndexOutOfBoundsException>']
+
+org.apache.commons.cli.DefaultParser:isJavaProperty:1164->[Local Variables] {"token":""}
+org.apache.commons.cli.DefaultParser:isJavaProperty:1165->[Method Call] Call Stack: org.apache.commons.cli.DefaultParser.isJavaProperty:1165 -> java.lang.String.substring

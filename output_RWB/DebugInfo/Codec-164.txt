@@ -1,0 +1,15 @@
+
+=== Debug Info for Test: org.apache.commons.codec.language.MatchRatingApproachEncoderTest#testPunctuationOnly ===
+Exception: ['MatchRatingApproachEncoderTest.testPunctuationOnly:510 » StringIndexOutOfBounds begin 0, end 1, length 0']
+
+org.apache.commons.codec.language.MatchRatingApproachEncoder:encode:242->[Local Variables] {"name":".,-"}
+org.apache.commons.codec.language.MatchRatingApproachEncoder:encode:243->[Control Flow] Branch Info: Line: 243, Condition: if (name != null), Executed: true
+org.apache.commons.codec.language.MatchRatingApproachEncoder:encode:243->[Method Call] Call Stack: org.apache.commons.codec.language.MatchRatingApproachEncoder.encode:243 -> java.lang.String.equalsIgnoreCase
+org.apache.commons.codec.language.MatchRatingApproachEncoder:encode:243->[Control Flow] Branch Info: Line: 243, Condition: if (java.lang.String.equalsIgnoreCase() == 0), Executed: true
+org.apache.commons.codec.language.MatchRatingApproachEncoder:encode:243->[Method Call] Call Stack: org.apache.commons.codec.language.MatchRatingApproachEncoder.encode:243 -> java.lang.String.equalsIgnoreCase
+org.apache.commons.codec.language.MatchRatingApproachEncoder:encode:243->[Control Flow] Branch Info: Line: 243, Condition: if (java.lang.String.equalsIgnoreCase() == 0), Executed: true
+org.apache.commons.codec.language.MatchRatingApproachEncoder:encode:243->[Method Call] Call Stack: org.apache.commons.codec.language.MatchRatingApproachEncoder.encode:243 -> java.lang.String.length
+org.apache.commons.codec.language.MatchRatingApproachEncoder:encode:243->[Control Flow] Branch Info: Line: 243, Condition: if (java.lang.String.length() == java.lang.String.length()), Executed: false
+org.apache.commons.codec.language.MatchRatingApproachEncoder:encode:253->[Method Call] Call Stack: org.apache.commons.codec.language.MatchRatingApproachEncoder.encode:253 -> org.apache.commons.codec.language.MatchRatingApproachEncoder.cleanName
+org.apache.commons.codec.language.MatchRatingApproachEncoder:encode:260->[Local Variables] {"name":""}
+org.apache.commons.codec.language.MatchRatingApproachEncoder:encode:261->[Method Call] Call Stack: org.apache.commons.codec.language.MatchRatingApproachEncoder.encode:261 -> org.apache.commons.codec.language.MatchRatingApproachEncoder.removeVowels

@@ -1,0 +1,12 @@
+[
+  {
+    "method": "org.apache.commons.codec.binary.Base16.decodeOctet",
+    "doc": "/**\n\n     * Creates a Base16 codec used for decoding and encoding.\n\n     *\n\n     * @param lowerCase if {@code true} then use a lower-case Base16 alphabet.\n\n     * @param decodingPolicy Decoding policy.\n\n     */",
+    "code": "private int decodeOctet(final byte octet) {\n\n        int decoded = -1;\n\n        if ((octet & 0xff) < decodeTable.length) {\n\n            decoded = decodeTable[octet];\n\n        }\n\n\n\n        if (decoded == -1) {\n\n            throw new IllegalArgumentException(\"Invalid octet in encoded value: \" + (int)octet);\n\n        }\n\n\n\n        return decoded;\n\n    }"
+  },
+  {
+    "method": "org.apache.commons.codec.binary.Base16.ensureBufferSize",
+    "doc": "[No documentation]",
+    "code": "[No method body]"
+  }
+]

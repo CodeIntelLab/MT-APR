@@ -1,0 +1,4 @@
+
+=== Debug Info for Test: org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest#zipInputStream ===
+Exception: ['ZipArchiveInputStreamTest.zipInputStream:725 » ArrayIndexOutOfBounds arraycopy: source index -6 out of bounds for byte[512]']
+

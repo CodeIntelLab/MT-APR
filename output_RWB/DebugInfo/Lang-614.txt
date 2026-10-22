@@ -1,0 +1,39 @@
+
+=== Debug Info for Test: org.apache.commons.lang3.math.NumberUtilsTest#testInvalidNumber ===
+Exception: ['NumberUtilsTest.testInvalidNumber:727 Unexpected exception type thrown, expected: <java.lang.NumberFormatException> but was: <java.lang.StringIndexOutOfBoundsException>']
+
+org.apache.commons.lang3.math.NumberUtils:getMantissa:994->[Local Variables] {"str":"-","stopPos":0}
+org.apache.commons.lang3.math.NumberUtils:getMantissa:995->[Method Call] Call Stack: org.apache.commons.lang3.math.NumberUtils.getMantissa:995 -> java.lang.String.charAt
+org.apache.commons.lang3.math.NumberUtils:getMantissa:996->[Local Variables] {"firstChar":"-"}
+org.apache.commons.lang3.math.NumberUtils:getMantissa:997->[Control Flow] Branch Info: Line: 997, Condition: if (firstChar != firstChar), Executed: false
+org.apache.commons.lang3.math.NumberUtils:getMantissa:1000->[Local Variables] {"hasSign":true}
+org.apache.commons.lang3.math.NumberUtils:getMantissa:1001->[Control Flow] Branch Info: Line: 1001, Condition: if (hasSign != 0), Executed: true
+org.apache.commons.lang3.math.NumberUtils:getMantissa:1001->[Method Call] Call Stack: org.apache.commons.lang3.math.NumberUtils.getMantissa:1001 -> java.lang.String.substring
+org.apache.commons.lang3.math.NumberUtils:getMantissa:994->[Local Variables] {"str":"-","stopPos":0}
+org.apache.commons.lang3.math.NumberUtils:getMantissa:995->[Method Call] Call Stack: org.apache.commons.lang3.math.NumberUtils.getMantissa:995 -> java.lang.String.charAt
+org.apache.commons.lang3.math.NumberUtils:getMantissa:996->[Local Variables] {"firstChar":"-"}
+org.apache.commons.lang3.math.NumberUtils:getMantissa:997->[Control Flow] Branch Info: Line: 997, Condition: if (firstChar != firstChar), Executed: false
+org.apache.commons.lang3.math.NumberUtils:getMantissa:1000->[Local Variables] {"hasSign":true}
+org.apache.commons.lang3.math.NumberUtils:getMantissa:1001->[Control Flow] Branch Info: Line: 1001, Condition: if (hasSign != 0), Executed: true
+org.apache.commons.lang3.math.NumberUtils:getMantissa:1001->[Method Call] Call Stack: org.apache.commons.lang3.math.NumberUtils.getMantissa:1001 -> java.lang.String.substring
+org.apache.commons.lang3.math.NumberUtils:getMantissa:994->[Local Variables] {"str":"-","stopPos":0}
+org.apache.commons.lang3.math.NumberUtils:getMantissa:995->[Method Call] Call Stack: org.apache.commons.lang3.math.NumberUtils.getMantissa:995 -> java.lang.String.charAt
+org.apache.commons.lang3.math.NumberUtils:getMantissa:996->[Local Variables] {"firstChar":"-"}
+org.apache.commons.lang3.math.NumberUtils:getMantissa:997->[Control Flow] Branch Info: Line: 997, Condition: if (firstChar != firstChar), Executed: false
+org.apache.commons.lang3.math.NumberUtils:getMantissa:1000->[Local Variables] {"hasSign":true}
+org.apache.commons.lang3.math.NumberUtils:getMantissa:1001->[Control Flow] Branch Info: Line: 1001, Condition: if (hasSign != 0), Executed: true
+org.apache.commons.lang3.math.NumberUtils:getMantissa:1001->[Method Call] Call Stack: org.apache.commons.lang3.math.NumberUtils.getMantissa:1001 -> java.lang.String.substring
+org.apache.commons.lang3.math.NumberUtils:getMantissa:994->[Local Variables] {"str":"-","stopPos":0}
+org.apache.commons.lang3.math.NumberUtils:getMantissa:995->[Method Call] Call Stack: org.apache.commons.lang3.math.NumberUtils.getMantissa:995 -> java.lang.String.charAt
+org.apache.commons.lang3.math.NumberUtils:getMantissa:996->[Local Variables] {"firstChar":"-"}
+org.apache.commons.lang3.math.NumberUtils:getMantissa:997->[Control Flow] Branch Info: Line: 997, Condition: if (firstChar != firstChar), Executed: false
+org.apache.commons.lang3.math.NumberUtils:getMantissa:1000->[Local Variables] {"hasSign":true}
+org.apache.commons.lang3.math.NumberUtils:getMantissa:1001->[Control Flow] Branch Info: Line: 1001, Condition: if (hasSign != 0), Executed: true
+org.apache.commons.lang3.math.NumberUtils:getMantissa:1001->[Method Call] Call Stack: org.apache.commons.lang3.math.NumberUtils.getMantissa:1001 -> java.lang.String.substring
+org.apache.commons.lang3.math.NumberUtils:getMantissa:994->[Local Variables] {"str":"-","stopPos":0}
+org.apache.commons.lang3.math.NumberUtils:getMantissa:995->[Method Call] Call Stack: org.apache.commons.lang3.math.NumberUtils.getMantissa:995 -> java.lang.String.charAt
+org.apache.commons.lang3.math.NumberUtils:getMantissa:996->[Local Variables] {"firstChar":"-"}
+org.apache.commons.lang3.math.NumberUtils:getMantissa:997->[Control Flow] Branch Info: Line: 997, Condition: if (firstChar != firstChar), Executed: false
+org.apache.commons.lang3.math.NumberUtils:getMantissa:1000->[Local Variables] {"hasSign":true}
+org.apache.commons.lang3.math.NumberUtils:getMantissa:1001->[Control Flow] Branch Info: Line: 1001, Condition: if (hasSign != 0), Executed: true
+org.apache.commons.lang3.math.NumberUtils:getMantissa:1001->[Method Call] Call Stack: org.apache.commons.lang3.math.NumberUtils.getMantissa:1001 -> java.lang.String.substring

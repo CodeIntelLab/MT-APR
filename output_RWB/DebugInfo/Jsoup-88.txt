@@ -1,0 +1,4 @@
+
+=== Debug Info for Test: org.jsoup.integration.ConnectTest#maxBodySizeInReadToByteBuffer ===
+Exception: ['ConnectTest.maxBodySizeInReadToByteBuffer:679 expected: <280735> but was: <32768>']
+

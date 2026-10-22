@@ -1,0 +1,7 @@
+[
+  {
+    "method": "org.apache.commons.lang3.StringUtils.isBlank",
+    "doc": "/**\n     * Returns either the passed in CharSequence, or if the CharSequence is\n     * empty or {@code null}, the value of {@code defaultStr}.\n     *\n     * <pre>\n     * StringUtils.defaultIfEmpty(null, \"NULL\")  = \"NULL\"\n     * StringUtils.defaultIfEmpty(\"\", \"NULL\")    = \"NULL\"\n     * StringUtils.defaultIfEmpty(\" \", \"NULL\")   = \" \"\n     * StringUtils.defaultIfEmpty(\"bat\", \"NULL\") = \"bat\"\n     * StringUtils.defaultIfEmpty(\"\", null)      = null\n     * </pre>\n     * @param <T> the specific kind of CharSequence\n     * @param str  the CharSequence to check, may be null\n     * @param defaultStr  the default CharSequence to return\n     *  if the input is empty (\"\") or {@code null}, may be null\n     * @return the passed in CharSequence, or the default\n     * @see StringUtils#defaultString(String, String)\n     */",
+    "code": "return isBlank(str) ? defaultStr : str;\n    }\n\n    public static <T extends CharSequence> T defaultIfEmpty(final T str, final T defaultStr) {"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "method": "org.jsoup.internal.ConstrainableInputStream.read",
+    "doc": "/**\n\n     * If this InputStream is not already a ConstrainableInputStream, let it be one.\n\n     * @param in the input stream to (maybe) wrap\n\n     * @param bufferSize the buffer size to use when reading\n\n     * @param maxSize the maximum size to allow to be read. 0 == infinite.\n\n     * @return a constrainable input stream\n\n     */",
+    "code": "public int read(byte[] b, int off, int len) throws IOException {\n\n        if (interrupted || capped && remaining <= 0)\n\n            return -1;\n\n        if (Thread.interrupted()) {\n\n\n            interrupted = true;\n\n            return -1;\n\n        }\n\n        if (expired())\n\n            throw new SocketTimeoutException(\"Read timeout\");\n\n\n\n        if (capped && len > remaining)\n\n            len = remaining; // don't read more than desired, even if available\n\n\n\n        try {\n\n            final int read = super.read(b, off, len);\n\n            remaining -= read;\n\n            return read;\n\n        } catch (SocketTimeoutException e) {\n\n            return 0;\n\n        }\n\n    }"
+  }
+]
